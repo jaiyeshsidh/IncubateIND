@@ -3,59 +3,51 @@
 <head>
   <meta charset="utf-8">
   <title>IncubateIND</title>
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
   <meta content="" name="keywords">
   <meta content="" name="description">
 
   <!-- Favicons -->
-  <link href="img/favicon.png" rel="icon">
-  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- ############################### Changes Next Line ############################### -->
+  <link href="assist/img/favicon.png" rel="icon">
+  <!-- ############################### Changes Next Line ############################### -->
+  <link href="assist/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+
+  
+  <!-- Main Stylesheet File -->
+  <link href="assist/css/style.css" rel="stylesheet">
 
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800|Montserrat:300,400,700" rel="stylesheet">
+  <link href="assist/https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800|Montserrat:300,400,700" rel="stylesheet">
 
   <!-- Bootstrap CSS File -->
-  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assist/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
   <!-- Libraries CSS Files -->
-  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-  <link href="lib/animate/animate.min.css" rel="stylesheet">
-  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
-  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-  <link href="lib/magnific-popup/magnific-popup.css" rel="stylesheet">
-  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="assist/lib/swiper/css/swiper.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+  <link href="assist/lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="assist/lib/animate/animate.min.css" rel="stylesheet">
+  <link href="assist/lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="assist/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="assist/lib/ionicons/css/ionicons.min.css" rel="stylesheet">
 
-  <!-- Main Stylesheet File -->
-  <link href="css/style.css" rel="stylesheet">
 
-  <!-- =======================================================
-    Theme Name: Reveal
-    Theme URL: https://bootstrapmade.com/reveal-bootstrap-corporate-template/
-    Author: BootstrapMade.com
-    License: https://bootstrapmade.com/license/
-  ======================================================= -->
+
+
+  <!-- ###### Boostrap CDN ###########-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
 </head>
 
 <body id="body">
-
-  <!--==========================
-    Top Bar
-  ============================-->
-  <section id="topbar" class="d-none d-lg-block">
-    <div class="container clearfix">
-      <div class="contact-info float-left">
-        <i class="fa fa-envelope-o"></i> <a href="mailto:contact@example.com">contact@example.com</a>
-        <i class="fa fa-phone"></i> +1 5589 55488 55
-      </div>
-      <div class="social-links float-right">
-        <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
-        <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
-        <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
-        <a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a>
-        <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
-      </div>
-    </div>
-  </section>
 
   <!--==========================
     Header
@@ -64,19 +56,21 @@
     <div class="container">
 
       <div id="logo" class="pull-left">
-        <h1><a href="#body" class="scrollto">Reve<span>al</span></a></h1>
-        <!-- Uncomment below if you prefer to use an image logo -->
-        <!-- <a href="#body"><img src="img/logo.png" alt="" title="" /></a>-->
+        <!-- ############################### Changes Next Line ############################### -->
+        <a href="#body">
+            <svg 
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            width="1.889in" height="0.708in">
+           <image  x="0px" y="0px" width="136px" height="51px"  xlink:href="data:img/png;base64,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" />
+           </svg>
+           </a>
       </div>
 
       <nav id="nav-menu-container">
         <ul class="nav-menu">
-          <li class="menu-active"><a href="#body">Home</a></li>
-          <li><a href="#about">About Us</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#team">Team</a></li>
-          <li class="menu-has-children"><a href="">Drop Down</a>
+          <li class="menu-developers"><a>For Developers</a></li>
+          <li class="menu-sub-business"><a>For Business <i class="fas fa-chevron-down"> </i></a>
             <ul>
               <li><a href="#">Drop Down 1</a></li>
               <li><a href="#">Drop Down 3</a></li>
@@ -84,7 +78,8 @@
               <li><a href="#">Drop Down 5</a></li>
             </ul>
           </li>
-          <li><a href="#contact">Contact</a></li>
+          <li class="menu-school"><a>For School</a></li>
+          <li class="btn nav-signin"><a>LogIn/Sign Up</a></li>
         </ul>
       </nav><!-- #nav-menu-container -->
     </div>
@@ -93,512 +88,959 @@
   <!--==========================
     Intro Section
   ============================-->
-  <section id="intro">
+  <section id="intro" class="id_intro">
 
-    <div class="intro-content">
-      <h2>Making <span>your ideas</span><br>happen!</h2>
-      <div>
-        <a href="#about" class="btn-get-started scrollto">Get Started</a>
-        <a href="#portfolio" class="btn-projects scrollto">Our Projects</a>
-      </div>
-    </div>
+    <div class="container" style="padding-top: 40px; ">
+        <div class="row">
+          <div class="col-lg-6">
+            <h4>Practice Coding. Compete.</h4>
+            <h3>Find Jobs.</h3>
+            
+            <div class="container" style="width: 80% !important; margin-left: 0px; padding-left: 0px;">
 
-    <div id="intro-carousel" class="owl-carousel" >
-      <div class="item" style="background-image: url('img/intro-carousel/1.jpg');"></div>
-      <div class="item" style="background-image: url('img/intro-carousel/2.jpg');"></div>
-      <div class="item" style="background-image: url('img/intro-carousel/3.jpg');"></div>
-      <div class="item" style="background-image: url('img/intro-carousel/4.jpg');"></div>
-      <div class="item" style="background-image: url('img/intro-carousel/5.jpg');"></div>
+                <div id="myCarousel" class="carousel slide">
+                  <!-- Wrapper for slides -->
+                  <div class="carousel-inner">
+                    <div class="item active">
+                      <!-- ############################### Changes Next Line ############################### -->
+                      <img src="assist/img/home-developer.svg">
+                    </div>
+                    <div class="item">
+                      <img src="assist/img/home-developer.svg">
+                    </div>
+                    <div class="item">
+                      <img src="assist/img/home-developer.svg">
+                    </div>
+                  </div>
+
+                  <!-- Indicators -->
+                  <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                  </ol>
+                </div>
+
+              </div>
+
+          </div>
+          <div class="col-lg-6">
+            <!--Login Starts-->
+            <div id="tabs" class="login">
+                <div class="form-body">
+                  <ul class="nav nav-tabs final-login">
+                      <li class="active" data-target="#myCarousel" data-slide-to="0"><a data-toggle="tab" href="#sectionA">Developers</a></li>
+                      <li data-target="#myCarousel" data-slide-to="1"><a data-toggle="tab" href="#sectionB">Businesses</a></li>
+                      <li data-target="#myCarousel" data-slide-to="2"><a data-toggle="tab" href="#sectionC">Schools</a></li>
+                  </ul>
+                  <div class="tab-content">
+                    <!--Section A-->
+                    <div id="sectionA" class="tab-pane fade in active">
+                      <div class="innter-form">
+                        <form class="sa-innate-form" method="post">
+                          <input type="text" name="Email ID/Phone Number" placeholder="Email ID/Phone Number">
+                          <input type="password" name="password" placeholder="Password">
+                          <p style="padding: 10px 0;">
+                            <a href="">Recover Password?</a>
+                            <a href="" style="float: right;"><span style="color:#9c9c9c;">Not Registered?</span> Signup</a>
+                          </p>
+                          <button type="submit">Get Started Today</button>
+                          <p class="text-center" style="margin-bottom: 30px;"> or </p>
+                        </form>
+                      </div>
+                      <div class="social-login">
+                        <ul>
+                          <li><a href=""><i class="fab fa-facebook"></i> Facebook</a></li>
+                          <li><a href=""><i class="fa fa-google-plus"></i> Google+</a></li>
+                          <li><a href=""><i class="fa fa-github"></i> Github</a></li>
+                        </ul>
+                      </div>
+                      <div class="clearfix"></div>
+                    </div>
+                    <!--Section B-->
+                    <div id="sectionB" class="tab-pane fade">
+                        <div class="innter-form">
+                            <form class="sa-innate-form" method="post">
+                              <input type="text" name="Email ID/Phone Number" placeholder="Email ID/Phone Number">
+                              <input type="password" name="password" placeholder="Password">
+                              <p style="padding: 10px 0;">
+                                <a href="">Recover Password?</a>
+                                <a href="" style="float: right;"><span style="color:#9c9c9c;">Not Registered?</span> Signup</a>
+                              </p>
+                              <button type="submit">Get Started Today</button>
+                              <p class="text-center" style="margin-bottom: 30px;"> or </p>
+                            </form>
+                          </div>
+                          <div class="social-login">
+                            <ul>
+                              <li><a href=""><i class="fab fa-facebook"></i> Facebook</a></li>
+                              <li><a href=""><i class="fa fa-google-plus"></i> Google+</a></li>
+                              <li><a href=""><i class="fa fa-github"></i> Github</a></li>
+                            </ul>
+                          </div>
+                          <div class="clearfix"></div>
+                    </div>
+                    <!--Section C-->
+                    <div id="sectionC" class="tab-pane fade">
+                      <div class="innter-form">
+                        <form class="sa-innate-form" method="post">
+                          <input type="text" name="Email ID/Phone Number" placeholder="Email ID/Phone Number">
+                          <input type="password" name="password" placeholder="Password">
+                          <p style="padding: 10px 0;">
+                            <a href="">Recover Password?</a>
+                            <a href="" style="float: right;"><span style="color:#9c9c9c;">Not Registered?</span> Signup</a>
+                          </p>
+                          <button type="submit">Get Started Today</button>
+                          <p class="text-center" style="margin-bottom: 30px;"> or </p>
+                        </form>
+                      </div>
+                      <div class="social-login">
+                        <ul>
+                          <li><a href=""><i class="fab fa-facebook"></i> Facebook</a></li>
+                          <li><a href=""><i class="fa fa-google-plus"></i> Google+</a></li>
+                          <li><a href=""><i class="fa fa-github"></i> Github</a></li>
+                        </ul>
+                      </div>
+                      <div class="clearfix"></div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <!-- Login Ends-->
+          </div>
+        </div>
     </div>
 
   </section><!-- #intro -->
 
-  <main id="main">
 
-    <!--==========================
-      About Section
-    ============================-->
-    <section id="about" class="wow fadeInUp">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-6 about-img">
-            <img src="img/about-img.jpg" alt="">
-          </div>
-
-          <div class="col-lg-6 content">
-            <h2>Lorem ipsum dolor sit amet, consectetur adipiscing</h2>
-            <h3>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h3>
-
-            <ul>
-              <li><i class="ion-android-checkmark-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-              <li><i class="ion-android-checkmark-circle"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-              <li><i class="ion-android-checkmark-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
-            </ul>
-
-          </div>
-        </div>
-
-      </div>
-    </section><!-- #about -->
-
-    <!--==========================
-      Services Section
-    ============================-->
-    <section id="services">
-      <div class="container">
-        <div class="section-header">
-          <h2>Services</h2>
-          <p>Sed tamen tempor magna labore dolore dolor sint tempor duis magna elit veniam aliqua esse amet veniam enim export quid quid veniam aliqua eram noster malis nulla duis fugiat culpa esse aute nulla ipsum velit export irure minim illum fore</p>
-        </div>
-
-        <div class="row">
-
-          <div class="col-lg-6">
-            <div class="box wow fadeInLeft">
-              <div class="icon"><i class="fa fa-bar-chart"></i></div>
-              <h4 class="title"><a href="">Lorem Ipsum</a></h4>
-              <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident etiro rabeta lingo.</p>
-            </div>
-          </div>
-
-          <div class="col-lg-6">
-            <div class="box wow fadeInRight">
-              <div class="icon"><i class="fa fa-picture-o"></i></div>
-              <h4 class="title"><a href="">Dolor Sitema</a></h4>
-              <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata nodera clas.</p>
-            </div>
-          </div>
-
-          <div class="col-lg-6">
-            <div class="box wow fadeInLeft" data-wow-delay="0.2s">
-              <div class="icon"><i class="fa fa-shopping-bag"></i></div>
-              <h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
-              <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur trinige zareta lobur trade.</p>
-            </div>
-          </div>
-
-          <div class="col-lg-6">
-            <div class="box wow fadeInRight" data-wow-delay="0.2s">
-              <div class="icon"><i class="fa fa-map"></i></div>
-              <h4 class="title"><a href="">Magni Dolores</a></h4>
-              <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum rideta zanox satirente madera</p>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- #services -->
-
-    <!--==========================
-      Clients Section
-    ============================-->
-    <section id="clients" class="wow fadeInUp">
-      <div class="container">
-        <div class="section-header">
-          <h2>Clients</h2>
-          <p>Sed tamen tempor magna labore dolore dolor sint tempor duis magna elit veniam aliqua esse amet veniam enim export quid quid veniam aliqua eram noster malis nulla duis fugiat culpa esse aute nulla ipsum velit export irure minim illum fore</p>
-        </div>
-
-        <div class="owl-carousel clients-carousel">
-          <img src="img/clients/client-1.png" alt="">
-          <img src="img/clients/client-2.png" alt="">
-          <img src="img/clients/client-3.png" alt="">
-          <img src="img/clients/client-4.png" alt="">
-          <img src="img/clients/client-5.png" alt="">
-          <img src="img/clients/client-6.png" alt="">
-          <img src="img/clients/client-7.png" alt="">
-          <img src="img/clients/client-8.png" alt="">
-        </div>
-
-      </div>
-    </section><!-- #clients -->
-
-    <!--==========================
-      Our Portfolio Section
-    ============================-->
-    <section id="portfolio" class="wow fadeInUp">
-      <div class="container">
-        <div class="section-header">
-          <h2>Our Portfolio</h2>
-          <p>Sed tamen tempor magna labore dolore dolor sint tempor duis magna elit veniam aliqua esse amet veniam enim export quid quid veniam aliqua eram noster malis nulla duis fugiat culpa esse aute nulla ipsum velit export irure minim illum fore</p>
-        </div>
-      </div>
-
-      <div class="container-fluid">
-        <div class="row no-gutters">
-
-          <div class="col-lg-3 col-md-4">
-            <div class="portfolio-item wow fadeInUp">
-              <a href="img/portfolio/1.jpg" class="portfolio-popup">
-                <img src="img/portfolio/1.jpg" alt="">
-                <div class="portfolio-overlay">
-                  <div class="portfolio-info"><h2 class="wow fadeInUp">Portfolio Item 1</h2></div>
-                </div>
-              </a>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4">
-            <div class="portfolio-item wow fadeInUp">
-              <a href="img/portfolio/2.jpg" class="portfolio-popup">
-                <img src="img/portfolio/2.jpg" alt="">
-                <div class="portfolio-overlay">
-                  <div class="portfolio-info"><h2 class="wow fadeInUp">Portfolio Item 2</h2></div>
-                </div>
-              </a>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4">
-            <div class="portfolio-item wow fadeInUp">
-              <a href="img/portfolio/3.jpg" class="portfolio-popup">
-                <img src="img/portfolio/3.jpg" alt="">
-                <div class="portfolio-overlay">
-                  <div class="portfolio-info"><h2 class="wow fadeInUp">Portfolio Item 3</h2></div>
-                </div>
-              </a>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4">
-            <div class="portfolio-item wow fadeInUp">
-              <a href="img/portfolio/4.jpg" class="portfolio-popup">
-                <img src="img/portfolio/4.jpg" alt="">
-                <div class="portfolio-overlay">
-                  <div class="portfolio-info"><h2 class="wow fadeInUp">Portfolio Item 4</h2></div>
-                </div>
-              </a>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4">
-            <div class="portfolio-item wow fadeInUp">
-              <a href="img/portfolio/5.jpg" class="portfolio-popup">
-                <img src="img/portfolio/5.jpg" alt="">
-                <div class="portfolio-overlay">
-                  <div class="portfolio-info"><h2 class="wow fadeInUp">Portfolio Item 5</h2></div>
-                </div>
-              </a>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4">
-            <div class="portfolio-item wow fadeInUp">
-              <a href="img/portfolio/6.jpg" class="portfolio-popup">
-                <img src="img/portfolio/6.jpg" alt="">
-                <div class="portfolio-overlay">
-                  <div class="portfolio-info"><h2 class="wow fadeInUp">Portfolio Item 6</h2></div>
-                </div>
-              </a>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4">
-            <div class="portfolio-item wow fadeInUp">
-              <a href="img/portfolio/7.jpg" class="portfolio-popup">
-                <img src="img/portfolio/7.jpg" alt="">
-                <div class="portfolio-overlay">
-                  <div class="portfolio-info"><h2 class="wow fadeInUp">Portfolio Item 7</h2></div>
-                </div>
-              </a>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4">
-            <div class="portfolio-item wow fadeInUp">
-              <a href="img/portfolio/8.jpg" class="portfolio-popup">
-                <img src="img/portfolio/8.jpg" alt="">
-                <div class="portfolio-overlay">
-                  <div class="portfolio-info"><h2 class="wow fadeInUp">Portfolio Item 8</h2></div>
-                </div>
-              </a>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- #portfolio -->
-
-    <!--==========================
-      Testimonials Section
-    ============================-->
-    <section id="testimonials" class="wow fadeInUp">
-      <div class="container">
-        <div class="section-header">
-          <h2>Testimonials</h2>
-          <p>Sed tamen tempor magna labore dolore dolor sint tempor duis magna elit veniam aliqua esse amet veniam enim export quid quid veniam aliqua eram noster malis nulla duis fugiat culpa esse aute nulla ipsum velit export irure minim illum fore</p>
-        </div>
-        <div class="owl-carousel testimonials-carousel">
-
-            <div class="testimonial-item">
-              <p>
-                <img src="img/quote-sign-left.png" class="quote-sign-left" alt="">
-                Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
-                <img src="img/quote-sign-right.png" class="quote-sign-right" alt="">
-              </p>
-              <img src="img/testimonial-1.jpg" class="testimonial-img" alt="">
-              <h3>Saul Goodman</h3>
-              <h4>Ceo &amp; Founder</h4>
-            </div>
-
-            <div class="testimonial-item">
-              <p>
-                <img src="img/quote-sign-left.png" class="quote-sign-left" alt="">
-                Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
-                <img src="img/quote-sign-right.png" class="quote-sign-right" alt="">
-              </p>
-              <img src="img/testimonial-2.jpg" class="testimonial-img" alt="">
-              <h3>Sara Wilsson</h3>
-              <h4>Designer</h4>
-            </div>
-
-            <div class="testimonial-item">
-              <p>
-                <img src="img/quote-sign-left.png" class="quote-sign-left" alt="">
-                Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
-                <img src="img/quote-sign-right.png" class="quote-sign-right" alt="">
-              </p>
-              <img src="img/testimonial-3.jpg" class="testimonial-img" alt="">
-              <h3>Jena Karlis</h3>
-              <h4>Store Owner</h4>
-            </div>
-
-            <div class="testimonial-item">
-              <p>
-                <img src="img/quote-sign-left.png" class="quote-sign-left" alt="">
-                Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
-                <img src="img/quote-sign-right.png" class="quote-sign-right" alt="">
-              </p>
-              <img src="img/testimonial-4.jpg" class="testimonial-img" alt="">
-              <h3>Matt Brandon</h3>
-              <h4>Freelancer</h4>
-            </div>
-
-            <div class="testimonial-item">
-              <p>
-                <img src="img/quote-sign-left.png" class="quote-sign-left" alt="">
-                Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
-                <img src="img/quote-sign-right.png" class="quote-sign-right" alt="">
-              </p>
-              <img src="img/testimonial-5.jpg" class="testimonial-img" alt="">
-              <h3>John Larson</h3>
-              <h4>Entrepreneur</h4>
-            </div>
-
-        </div>
-
-      </div>
-    </section><!-- #testimonials -->
-
-    <!--==========================
-      Call To Action Section
-    ============================-->
-    <section id="call-to-action" class="wow fadeInUp">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-9 text-center text-lg-left">
-            <h3 class="cta-title">Call To Action</h3>
-            <p class="cta-text"> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          </div>
-          <div class="col-lg-3 cta-btn-container text-center">
-            <a class="cta-btn align-middle" href="#">Call To Action</a>
-          </div>
-        </div>
-
-      </div>
-    </section><!-- #call-to-action -->
-
-    <!--==========================
-      Our Team Section
-    ============================-->
-    <section id="team" class="wow fadeInUp">
-      <div class="container">
-        <div class="section-header">
-          <h2>Our Team</h2>
-        </div>
-        <div class="row">
-          <div class="col-lg-3 col-md-6">
-            <div class="member">
-              <div class="pic"><img src="img/team-1.jpg" alt=""></div>
-              <div class="details">
-                <h4>Walter White</h4>
-                <span>Chief Executive Officer</span>
-                <div class="social">
-                  <a href=""><i class="fa fa-twitter"></i></a>
-                  <a href=""><i class="fa fa-facebook"></i></a>
-                  <a href=""><i class="fa fa-google-plus"></i></a>
-                  <a href=""><i class="fa fa-linkedin"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6">
-            <div class="member">
-              <div class="pic"><img src="img/team-2.jpg" alt=""></div>
-              <div class="details">
-                <h4>Sarah Jhinson</h4>
-                <span>Product Manager</span>
-                <div class="social">
-                  <a href=""><i class="fa fa-twitter"></i></a>
-                  <a href=""><i class="fa fa-facebook"></i></a>
-                  <a href=""><i class="fa fa-google-plus"></i></a>
-                  <a href=""><i class="fa fa-linkedin"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6">
-            <div class="member">
-              <div class="pic"><img src="img/team-3.jpg" alt=""></div>
-              <div class="details">
-                <h4>William Anderson</h4>
-                <span>CTO</span>
-                <div class="social">
-                  <a href=""><i class="fa fa-twitter"></i></a>
-                  <a href=""><i class="fa fa-facebook"></i></a>
-                  <a href=""><i class="fa fa-google-plus"></i></a>
-                  <a href=""><i class="fa fa-linkedin"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6">
-            <div class="member">
-              <div class="pic"><img src="img/team-4.jpg" alt=""></div>
-              <div class="details">
-                <h4>Amanda Jepson</h4>
-                <span>Accountant</span>
-                <div class="social">
-                  <a href=""><i class="fa fa-twitter"></i></a>
-                  <a href=""><i class="fa fa-facebook"></i></a>
-                  <a href=""><i class="fa fa-google-plus"></i></a>
-                  <a href=""><i class="fa fa-linkedin"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </section><!-- #team -->
-
-    <!--==========================
-      Contact Section
-    ============================-->
-    <section id="contact" class="wow fadeInUp">
-      <div class="container">
-        <div class="section-header">
-          <h2>Contact Us</h2>
-          <p>Sed tamen tempor magna labore dolore dolor sint tempor duis magna elit veniam aliqua esse amet veniam enim export quid quid veniam aliqua eram noster malis nulla duis fugiat culpa esse aute nulla ipsum velit export irure minim illum fore</p>
-        </div>
-
-        <div class="row contact-info">
-
-          <div class="col-md-4">
-            <div class="contact-address">
-              <i class="ion-ios-location-outline"></i>
-              <h3>Address</h3>
-              <address>A108 Adam Street, NY 535022, USA</address>
-            </div>
-          </div>
-
-          <div class="col-md-4">
-            <div class="contact-phone">
-              <i class="ion-ios-telephone-outline"></i>
-              <h3>Phone Number</h3>
-              <p><a href="tel:+155895548855">+1 5589 55488 55</a></p>
-            </div>
-          </div>
-
-          <div class="col-md-4">
-            <div class="contact-email">
-              <i class="ion-ios-email-outline"></i>
-              <h3>Email</h3>
-              <p><a href="mailto:info@example.com">info@example.com</a></p>
-            </div>
-          </div>
-
-        </div>
-      </div>
-
-      <div id="google-map" data-latitude="40.713732" data-longitude="-74.0092704"></div>
-
-      <div class="container">
-        <div class="form">
-          <div id="sendmessage">Your message has been sent. Thank you!</div>
-          <div id="errormessage"></div>
-          <form action="" method="post" role="form" class="contactForm">
-            <div class="form-row">
-              <div class="form-group col-md-6">
-                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-                <div class="validation"></div>
-              </div>
-              <div class="form-group col-md-6">
-                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
-                <div class="validation"></div>
-              </div>
-            </div>
-            <div class="form-group">
-              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-              <div class="validation"></div>
-            </div>
-            <div class="form-group">
-              <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
-              <div class="validation"></div>
-            </div>
-            <div class="text-center"><button type="submit">Send Message</button></div>
-          </form>
-        </div>
-
-      </div>
-    </section><!-- #contact -->
-
-  </main>
-
+  
   <!--==========================
-    Footer
+    Upcoming Event Section
   ============================-->
-  <footer id="footer">
-    <div class="container">
-      <div class="copyright">
-        &copy; Copyright <strong>Reveal</strong>. All Rights Reserved
-      </div>
-      <div class="credits">
-        <!--
-          All the links in the footer should remain intact.
-          You can delete the links only if you purchased the pro version.
-          Licensing information: https://bootstrapmade.com/license/
-          Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Reveal
-        -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+
+
+<section id="upcoming_events" class="upcoming_events">
+  <div class="container">
+    <!-- Swiper -->
+    <div class="swiper-container swiper1">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="col-sm-4">
+            <img src="assist/img/Layer 869.jpg" style="width: 100%;">
+          </div>
+          <div class="col-sm-8">
+            <h5>Two Cities Hackathon</h5>
+            <p>on 15th July, 11:00PM</p>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="col-sm-4">
+            <img src="assist/img/Layer 870.jpg" style="width: 100%;">
+          </div>
+          <div class="col-sm-8">
+            <h5>Intel Python Hack Fury</h5>
+            <p>on 12th March, 09:00PM</p>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="col-sm-4">
+            <img src="assist/img/Layer 871.jpg" style="width: 100%;">
+          </div>
+          <div class="col-sm-8">
+            <h5>Pitney Bowes SMB Ch...</h5>
+            <p>on 15th July, 08:00 AM</p>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="col-sm-4">
+            <img src="assist/img/Layer 872.jpg" style="width: 100%;">
+          </div>
+          <div class="col-sm-8">
+            <h5>Two Cities Hackathon</h5>
+            <p>on 18 May 2018, 08:00 PM</p>
+          </div>
+        </div>
       </div>
     </div>
-  </footer><!-- #footer -->
+    <!--SWIPER ENDS-->
+  </div>
+</section>
 
-  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+
+  <!--==========================
+    Features Section
+  ============================-->
+
+
+
+<section id="features">
+  <div class="container">
+    <h1>Practice Coding. Compete. Find Jobs.</h1>
+    <div class="col-sm-4">
+      <div class="insider">
+        <img src="assist/img/Vector Smart Object1.svg">
+        <h2>Developers</h2>
+        <p>Practice, Compete, Find Jobs IncubateIND is the largest learning and competition community for programmers</p>
+        <h3>Solve Challenges Now <i class="fas fa-arrow-right"> </i></h3>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="insider">
+        <img src="assist/img/Vector Smart Object2.svg" style="fill: blue;">
+        <h2>Companies</h2>
+        <p>Assess, Screen, Interview
+            IncubateIND for Work is the leading 
+            end-to-end technical recruiting 
+            platform for hiring engineers</p>
+        <h3>Learn More <i class="fas fa-arrow-right"> </i></h3>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="insider">
+        <img src="assist/img/Vector Smart Object3.svg">
+        <h2>Schools</h2>
+        <p>Unleash your inner hacker
+            Be part of building the largest and 
+            most engaged student coding 
+            community in the world.
+            </p>
+        <h3>Learn More <i class="fas fa-arrow-right"> </i></h3>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+  <!--==========================
+    Compant that trust us
+  ============================-->
+
+<section id="company">
+  <div class="container">
+    <h1 style="padding-bottom: 20px;">Companies Who Trust us</h1>
+    <!-- Swiper -->
+    <div class="swiper-container swiper2">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+              <img src="assist/img/Layer 874.jpg" style="width: 100%;">
+          </div>
+          <div class="swiper-slide">
+              <img src="assist/img/Layer 876.jpg" style="width: 100%;">
+          </div>
+          <div class="swiper-slide">
+              <img src="assist/img/Layer 879.jpg" style="width: 100%;">
+          </div>
+          <div class="swiper-slide">
+              <img src="assist/img/Layer 880.jpg" style="width: 100%;">
+          </div>
+          <div class="swiper-slide">
+              <img src="assist/img/Layer 881.jpg" style="width: 100%;">
+          </div>
+          <div class="swiper-slide">
+              <img src="assist/img/Layer 874.jpg" style="width: 100%;">
+          </div>
+          <div class="swiper-slide">
+              <img src="assist/img/Layer 876.jpg" style="width: 100%;">
+          </div>
+          <div class="swiper-slide">
+              <img src="assist/img/Layer 879.jpg" style="width: 100%;">
+          </div>
+          <div class="swiper-slide">
+              <img src="assist/img/Layer 880.jpg" style="width: 100%;">
+          </div>
+          <div class="swiper-slide">
+              <img src="assist/img/Layer 881.jpg" style="width: 100%;">
+          </div>
+        </div>
+      </div>
+      <!--SWIPER ENDS-->
+      <!-- Add Pagination -->
+    <div class="swiper-pagination" style="text-align: center;"></div>
+  </div>
+</section>
+
+
+  <!--==========================
+    Upcoming Event Explain
+  ============================-->
+
+
+<section id="event-explain">
+  <div class="container">
+    <h1>Upcoming Events</h1>
+    <div class="col-sm-6" style="padding-right: 120px;">
+      <img src="assist/img/Layer 908.jpg" style="width: 150px;">
+      <h2>Two Cities Hachathon Schedule</h2>
+      <p>In order to bridge the gap between problems and problem-solvers, N/Core and Omidyar Network have launched the Ideathon. The objective is to bring to the fore, use cases and problem statements faced by marginalized or economically backward communities, </p>
+      <button>Register Now</button>
+    </div>
+    <div class="col-sm-6">
+      <img src="assist/img/Layer 910.jpg">
+    </div>
+  </div>
+</section>
+
+
+
+  <!--==========================
+    Featured Hackathon
+  ============================-->
+
+<section id="fh">
+  <div class="container">
+    <h1>Featured Hackathon</h1>
+    <div class="col-sm-3">
+      <div style="background-color: #fff; border: 1px solid #ebebeb;">
+        <img src="assist/img/Layer 899.jpg" class="img-top">
+        <div style="padding: 20px;">
+            <img src="assist/img/Layer 900.jpg" style="height: 55px;  padding:15px 0;">
+            <p>In order to bridge the gap between problems and problem-solvers,...</p>
+            <h4>Register Now <i class="fas fa-arrow-right"> </i></h4>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-3">
+      <div style="background-color: #fff; border: 1px solid #ebebeb;">
+        <img src="assist/img/Layer 902.jpg" class="img-top">
+        <div style="padding: 20px;">
+            <img src="assist/img/Layer 903.jpg" style="height: 55px;  padding:15px 0;">
+            <p>In order to bridge the gap between problems and problem-solvers,...</p>
+            <h4>Register Now <i class="fas fa-arrow-right"> </i></h4>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-3">
+      <div style="background-color: #fff; border: 1px solid #ebebeb;">
+        <img src="assist/img/Layer 904.jpg" class="img-top">
+        <div style="padding: 20px;">
+            <img src="assist/img/Layer 905.jpg" style="height: 55px;  padding:15px 0;">
+            <p>In order to bridge the gap between problems and problem-solvers,...</p>
+            <h4>Register Now <i class="fas fa-arrow-right"> </i></h4>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-3">
+      <div style="background-color: #fff; border: 1px solid #ebebeb;">
+        <img src="assist/img/Layer 906.jpg" class="img-top">
+        <div style="padding: 20px;">
+            <img src="assist/img/Layer 907.jpg" style="height: 55px; padding:15px 0;">
+            <p>In order to bridge the gap between problems and problem-solvers,...</p>
+            <h4>Register Now <i class="fas fa-arrow-right"> </i></h4>
+        </div>
+      </div>
+    </div>
+  </div>
+  <button>See All Event</button>
+</section>
+
+
+
+
+  <!--==========================
+    Tech Media
+  ============================-->
+<section id="media">
+  <div class="container">
+    <h1>Tech Media</h1>
+      <div id="scene">
+        <div id="left-zone">
+          <ul class="list">
+            <li class="item">
+              <input type="radio" id="media1" name="basic_carousel" checked="checked"/>
+              <label class="label_media1" for="media1">There will be some kind of breakthroughs in future in EV: Jitendra Nalwaya</label>
+              <div class="content content_media1">
+                <img src="assist/img/Layer 898.jpg" style="width:100%;">
+              </div>
+            </li>
+            <li class="item">
+                <input type="radio" id="media2" name="basic_carousel"/>
+                <label class="label_media2" for="media2">The Gamification of Education & Learning by Santeri Koivisto, CEO – TeacherGaming</label>
+                <div class="content content_media2">
+                  <img src="assist/img/Layer 898.jpg" style="width:100%;">
+                </div>
+            </li>
+            <li class="item">
+                <input type="radio" id="media3" name="basic_carousel"/>
+                <label class="label_media3" for="media3">India is still not ready for Electric Vehicles: Kamlesh Raval</label>
+                <div class="content content_media3">
+                  <img src="assist/img/Layer 898.jpg" style="width:100%;">
+                </div>
+            </li>
+            <li class="item">
+              <input type="radio" id="media4" name="basic_carousel" />
+              <label class="label_media4" for="media4">Video- Lithium is going to be the new oil: Divya Mittal</label>
+              <div class="content content_media4">
+                <img src="assist/img/Layer 898.jpg" style="width:100%;">
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div id="middle-border"></div>
+        <div id="right-zone"></div>
+      </div>
+      <button>See All News</button>
+  </div>
+  
+</section>
+
+
+  <!--==========================
+   Testimonial
+  ============================-->
+  <section id="testimonial">
+      <div class="container">
+        <h1>Testimonials</h1>
+          <ul class="nav nav-pills">
+            <li class="active"><a data-toggle="pill" href="#dev">Developers</a></li>
+            <li><a data-toggle="pill" href="#busi">Businesses</a></li>
+          </ul>
+        <div class="insider">
+            <div class="tab-content" style="padding-top: 40px;">
+              <div id="dev" class="tab-pane fade in active">
+                
+                <!-- Swiper -->
+                <div class="swiper-container swiper3">
+                  <div class="swiper-wrapper">
+
+
+                    <div class="swiper-slide">
+                      <div class="outer-hub">
+                        <div class="image-hub">
+                          <img src="assist/img/Layer 889.jpg">
+                        </div>
+                        <div class="side-hub">
+                          <h2>Haimal Khetan</h2>
+                          <p>Winner of Jivox Hackathon</p>
+                        </div>
+                      </div>
+                      <div class="bottom-hub">
+                        <p>"I would like to thank the incubateind for putting up such an awesome event. Events like this hackathon are an opportunity to showcase my coding skills, creativeness and working with team. I am totally thrilled to be a winner and working for Ixigo"</p>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="outer-hub">
+                          <div class="image-hub">
+                            <img src="assist/img/Layer 890.jpg">
+                          </div>
+                          <div class="side-hub">
+                            <h2>Karan Kapoor</h2>
+                            <p>Winner of Vistara Hackathon</p>
+                          </div>
+                        </div>
+                        <div class="bottom-hub">
+                          <p>"I would like to thank the incubateind for putting up such an awesome event. Events like this hackathon are an opportunity to showcase my coding skills, creativeness and working with team. I am totally thrilled to be a winner and working for Ixigo"</p>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                          <div class="outer-hub">
+                            <div class="image-hub">
+                              <img src="assist/img/Layer 891.jpg">
+                            </div>
+                            <div class="side-hub">
+                              <h2>Juhi Sharma</h2>
+                              <p>Winner of Indigo</p>
+                            </div>
+                          </div>
+                          <div class="bottom-hub">
+                            <p>"I would like to thank the incubateind for putting up such an awesome event. Events like this hackathon are an opportunity to showcase my coding skills, creativeness and working with team. I am totally thrilled to be a winner and working for Ixigo"</p>
+                          </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="outer-hub">
+                              <div class="image-hub">
+                                <img src="assist/img/Layer 889.jpg">
+                              </div>
+                              <div class="side-hub">
+                                <h2>Haimal Khetan</h2>
+                                <p>Winner of Jivox Hackathon</p>
+                              </div>
+                            </div>
+                            <div class="bottom-hub">
+                              <p>"I would like to thank the incubateind for putting up such an awesome event. Events like this hackathon are an opportunity to showcase my coding skills, creativeness and working with team. I am totally thrilled to be a winner and working for Ixigo"</p>
+                            </div>
+                          </div>
+                          <div class="swiper-slide">
+                              <div class="outer-hub">
+                                <div class="image-hub">
+                                  <img src="assist/img/Layer 890.jpg">
+                                </div>
+                                <div class="side-hub">
+                                  <h2>Karan Kapoor</h2>
+                                  <p>Winner of Vistara Hackathon</p>
+                                </div>
+                              </div>
+                              <div class="bottom-hub">
+                                <p>"I would like to thank the incubateind for putting up such an awesome event. Events like this hackathon are an opportunity to showcase my coding skills, creativeness and working with team. I am totally thrilled to be a winner and working for Ixigo"</p>
+                              </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="outer-hub">
+                                  <div class="image-hub">
+                                    <img src="assist/img/Layer 891.jpg">
+                                  </div>
+                                  <div class="side-hub">
+                                    <h2>Juhi Sharma</h2>
+                                    <p>Winner of Indigo</p>
+                                  </div>
+                                </div>
+                                <div class="bottom-hub">
+                                  <p>"I would like to thank the incubateind for putting up such an awesome event. Events like this hackathon are an opportunity to showcase my coding skills, creativeness and working with team. I am totally thrilled to be a winner and working for Ixigo"</p>
+                                </div>
+                              </div>
+
+                    
+                  </div>
+                            <!-- Add Pagination -->
+    <div class="swiper-pagination4" style="text-align: center;"></div>
+                </div>
+                <!--SWIPER ENDS-->
+      
+
+
+
+
+
+
+              </div>
+              <div id="busi" class="tab-pane fade">
+                
+
+
+            <!-- Swiper -->
+            <div class="swiper-container swiper4">
+                <div class="swiper-wrapper">
+
+
+                  <div class="swiper-slide">
+                    <div class="outer-hub">
+                      <div class="image-hub">
+                        <img src="assist/img/Layer 889.jpg">
+                      </div>
+                      <div class="side-hub">
+                        <h2>Haimal Khetan</h2>
+                        <p>Winner of Jivox Hackathon</p>
+                      </div>
+                    </div>
+                    <div class="bottom-hub">
+                      <p>"I would like to thank the incubateind for putting up such an awesome event. Events like this hackathon are an opportunity to showcase my coding skills, creativeness and working with team. I am totally thrilled to be a winner and working for Ixigo"</p>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="outer-hub">
+                      <div class="image-hub">
+                        <img src="assist/img/Layer 890.jpg">
+                      </div>
+                      <div class="side-hub">
+                        <h2>Karan Kapoor</h2>
+                        <p>Winner of Vistara Hackathon</p>
+                      </div>
+                    </div>
+                    <div class="bottom-hub">
+                      <p>"I would like to thank the incubateind for putting up such an awesome event. Events like this hackathon are an opportunity to showcase my coding skills, creativeness and working with team. I am totally thrilled to be a winner and working for Ixigo"</p>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="outer-hub">
+                      <div class="image-hub">
+                        <img src="assist/img/Layer 891.jpg">
+                      </div>
+                      <div class="side-hub">
+                        <h2>Juhi Sharma</h2>
+                        <p>Winner of Indigo</p>
+                      </div>
+                    </div>
+                    <div class="bottom-hub">
+                      <p>"I would like to thank the incubateind for putting up such an awesome event. Events like this hackathon are an opportunity to showcase my coding skills, creativeness and working with team. I am totally thrilled to be a winner and working for Ixigo"</p>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="outer-hub">
+                      <div class="image-hub">
+                        <img src="assist/img/Layer 889.jpg">
+                      </div>
+                      <div class="side-hub">
+                        <h2>Haimal Khetan</h2>
+                        <p>Winner of Jivox Hackathon</p>
+                      </div>
+                    </div>
+                    <div class="bottom-hub">
+                      <p>"I would like to thank the incubateind for putting up such an awesome event. Events like this hackathon are an opportunity to showcase my coding skills, creativeness and working with team. I am totally thrilled to be a winner and working for Ixigo"</p>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="outer-hub">
+                      <div class="image-hub">
+                        <img src="assist/img/Layer 890.jpg">
+                      </div>
+                      <div class="side-hub">
+                        <h2>Karan Kapoor</h2>
+                        <p>Winner of Vistara Hackathon</p>
+                      </div>
+                    </div>
+                    <div class="bottom-hub">
+                      <p>"I would like to thank the incubateind for putting up such an awesome event. Events like this hackathon are an opportunity to showcase my coding skills, creativeness and working with team. I am totally thrilled to be a winner and working for Ixigo"</p>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="outer-hub">
+                      <div class="image-hub">
+                        <img src="assist/img/Layer 891.jpg">
+                      </div>
+                      <div class="side-hub">
+                        <h2>Juhi Sharma</h2>
+                        <p>Winner of Indigo</p>
+                      </div>
+                    </div>
+                    <div class="bottom-hub">
+                      <p>"I would like to thank the incubateind for putting up such an awesome event. Events like this hackathon are an opportunity to showcase my coding skills, creativeness and working with team. I am totally thrilled to be a winner and working for Ixigo"</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--SWIPER ENDS-->
+              </div>
+            </div>
+        </div>
+      </div>
+    </section>
+
+    
+  <!--==========================
+   Start with us
+  ============================-->
+<section id="getstarted">
+  <div class="container">
+    <h1>Start getting noticed for the skills you have!</h1>
+    <div class="outer-form">
+      <div class="inner-form">
+        <input type="text" name="Full Name" placeholder="Full Name" style="border-radius: 5px 0px 0px 5px;">
+        <input type="text" name="EmailID" placeholder="Email Id">
+        <input type="number" name="Mobile Number" placeholder="Mobile Number" style="border-radius: 0px 5px 5px 0px;">
+        <button type="submit">Get Started Today</button>
+      </div>
+      <p>By creating account with IncubateIND, I agree to <u>Terms of Services</u></p>
+    </div>
+  </div>
+</section>
+
+
+
+    
+  <!--==========================
+   Our Team
+  ============================-->
+<section id="team">
+  <div class="container">
+    <h1>Our Team</h1>
+    <div>
+
+
+
+
+
+
+
+
+
+
+      <!-- Swiper -->
+      <div class="swiper-container swiper5">
+          <div class="swiper-wrapper">
+
+
+            <div class="swiper-slide">
+              <div class="info-link">
+                  <i class="fab fa-linkedin"></i>
+              </div>    
+              <div class="info-outer">
+                <img src="assist/img/Layer 916.jpg">
+                <h2>Nitin Sethi</h2>
+                <h3>VP Product Design & User Experience at Quikrt</h3>
+                <p>Nitin has 18 years of work experience in Digital Transformation, Product Design & User Experience. Currently, he is leading Digital Transformation for Indigo Airlines at Gurgoan, India. He specializes in leading multi-functional teams and establishing best user experience practices and processes in the organizations.</p>
+              </div>
+            </div>
+            
+            <div class="swiper-slide">
+              <div class="info-link">
+                  <i class="fab fa-linkedin"></i>
+              </div>    
+              <div class="info-outer">
+                <img src="assist/img/Layer 922.jpg">
+                <h2>Bhaskar Bhatt
+                  </h2>
+                <h3>Managing Director, Titan Company Ltd</h3>
+                <p>Bhaskar Bhatt holds a senior leadership position at ISDI Parsons Mumbai. As the Program Director of Product Innovation, he has led the development and implementation of an technology & innovation centric design curriculum and research. He plays a lead role in the Center for Global Health Innovation and manages relationships with leading domestic and international partners.</p>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="info-link">
+                  <i class="fab fa-linkedin"></i>
+              </div>    
+              <div class="info-outer">
+                <img src="assist/img/Layer 923.jpg">
+                <h2>Som Mittal</h2>
+                <h3>Former President and Chairman NASSCOM</h3>
+                <p>With over 13 years of experience in Management Consulting &amp; Deal Advisory with KPMG &amp; PwC, Sameer has led consulting engagements in the area of Strategy, Supply Chain, Operations Improvement and Deal Advisory for fortune 500 clients, PE players and the government establishments. Having worked across over 20+ industries, His eye for details, project management skills and ability to comprehend the strategic goals will help XinFin to form a strong foundation for its application oriented based business model.</p>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="info-link">
+                  <i class="fab fa-linkedin"></i>
+              </div>    
+              <div class="info-outer">
+                <img src="assist/img/Layer 916.jpg">
+                <h2>Nitin Sethi</h2>
+                <h3>VP Product Design & User Experience at Quikrt</h3>
+                <p>Nitin has 18 years of work experience in Digital Transformation, Product Design & User Experience. Currently, he is leading Digital Transformation for Indigo Airlines at Gurgoan, India. He specializes in leading multi-functional teams and establishing best user experience practices and processes in the organizations.</p>
+              </div>
+            </div>
+            
+            <div class="swiper-slide">
+              <div class="info-link">
+                  <i class="fab fa-linkedin"></i>
+              </div>    
+              <div class="info-outer">
+                <img src="assist/img/Layer 922.jpg">
+                <h2>Bhaskar Bhatt
+                  </h2>
+                <h3>Managing Director, Titan Company Ltd</h3>
+                <p>Bhaskar Bhatt holds a senior leadership position at ISDI Parsons Mumbai. As the Program Director of Product Innovation, he has led the development and implementation of an technology & innovation centric design curriculum and research. He plays a lead role in the Center for Global Health Innovation and manages relationships with leading domestic and international partners.</p>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="info-link">
+                  <i class="fab fa-linkedin"></i>
+              </div>    
+              <div class="info-outer">
+                <img src="assist/img/Layer 923.jpg">
+                <h2>Som Mittal</h2>
+                <h3>Former President and Chairman NASSCOM</h3>
+                <p>With over 13 years of experience in Management Consulting &amp; Deal Advisory with KPMG &amp; PwC, Sameer has led consulting engagements in the area of Strategy, Supply Chain, Operations Improvement and Deal Advisory for fortune 500 clients, PE players and the government establishments. Having worked across over 20+ industries, His eye for details, project management skills and ability to comprehend the strategic goals will help XinFin to form a strong foundation for its application oriented based business model.</p>
+              </div>
+            </div>
+
+            
+          </div>
+          <!-- Add Pagination -->
+          <div class="swiper-pagination5" style="text-align: center;"></div>
+        </div>
+        <!--SWIPER ENDS-->
+
+
+
+
+    </div>
+  </div>
+</section>
+
+
+<footer>
+
+  <div class="container">
+    <div class="col-sm-3 col-1">
+      <img src="assist/img/Layer 914.png">
+      <p>Keep in Touch</p>
+      <div class="social-links">
+        <i class="fab fa-linkedin"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-youtube"></i>
+        <i class="fab fa-instagram"></i>
+      </div>
+    </div>
+    <div class="col-sm-2">
+        <ul type="none" class="footer-list">  
+          <li class="list-head">COMPNAY</li>  
+          <li>About Us</li>  
+          <li>Careers</li>  
+          <li>Blog</li>  
+          <li>Privacy Policy</li>  
+          <li>Contact Us</li>  
+        </ul>  
+    </div>
+    <div class="col-sm-2">
+        <ul type="none" class="footer-list">  
+          <li class="list-head">DEVELOPERS</li>  
+          <li>Scoring</li>  
+          <li>Envirnoment</li>  
+          <li>FAQ</li>  
+          <li>Fr Schools</li>  
+          <li>Sign Up</li>  
+        </ul>  
+    </div>
+    <div class="col-sm-2">
+      <ul type="none" class="footer-list">  
+        <li class="list-head">CAMPANIES</li>  
+        <li>Solution</li>  
+        <li>Customers</li>  
+        <li>Pricing</li>  
+        <li>Fry for free</li>  
+        <li>Terms of Service</li>  
+      </ul>  
+    </div>
+
+    <div class="col-sm-2">
+        <ul type="none" class="footer-list">  
+          <li class="list-head">RESOURSES</li>  
+          <li>API</li>  
+          <li>Guides</li>  
+          <li>Partners</li>  
+          <li>Events</li>  
+          <li>News</li>  
+        </ul>  
+      </div>
+  </div>
+
+</footer>
+
+
+
 
   <!-- JavaScript Libraries -->
-  <script src="lib/jquery/jquery.min.js"></script>
-  <script src="lib/jquery/jquery-migrate.min.js"></script>
-  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="lib/easing/easing.min.js"></script>
-  <script src="lib/superfish/hoverIntent.js"></script>
-  <script src="lib/superfish/superfish.min.js"></script>
-  <script src="lib/wow/wow.min.js"></script>
-  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-  <script src="lib/magnific-popup/magnific-popup.min.js"></script>
-  <script src="lib/sticky/sticky.js"></script>
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD8HeI8o-c1NppZA-92oYlXakhDPYR7XMY"></script>
-  <!-- Contact Form JavaScript File -->
-  <script src="contactform/contactform.js"></script>
-
+  <script src="assist/lib/swiper/js/swiper.min.js"></script>
+  <script src="assist/lib/jquery/jquery.min.js"></script>
+  <script src="assist/lib/jquery/jquery-migrate.min.js"></script>
+  <script src="assist/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assist/lib/sticky/sticky.js"></script>
   <!-- Template Main Javascript File -->
-  <script src="js/main.js"></script>
+  <script src="assist/js/main.js"></script>
+
+
+
+  
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper1 = new Swiper('.swiper1', {
+        slidesPerView: 4,
+        spaceBetween: 15,
+        autoplay: 1200,
+        speed: 800,
+        simulateTouch: true,
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+        breakpoints: {
+          1024: {
+            slidesPerView: 3,
+            spaceBetween: 15,
+          },
+          768: {
+            slidesPerView: 2,
+            spaceBetween:15,
+          },
+          640: {
+            slidesPerView: 1,
+            spaceBetween: 15,
+          },
+          320: {
+            slidesPerView: 1,
+            spaceBetween: 15,
+          }
+        }
+      });
+      var swiper2 = new Swiper('.swiper2', {
+        slidesPerView: 5,
+        spaceBetween: 15,
+        autoplay: 1000,
+        speed: 800,
+        simulateTouch: true,
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: 'True',
+        },
+        breakpoints: {
+          1024: {
+            slidesPerView: 5,
+            spaceBetween: 15,
+          },
+          768: {
+            slidesPerView: 4,
+            spaceBetween: 15,
+          },
+          640: {
+            slidesPerView: 2,
+            spaceBetween: 15,
+          },
+          320: {
+            slidesPerView: 1,
+            spaceBetween: 15,
+          }
+        }
+      });
+      var swiper3 = new Swiper('.swiper3', {
+        slidesPerView: 3,
+        spaceBetween: 30,
+        autoplay: 1000,
+        speed: 800,
+        simulateTouch: true,
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+        breakpoints: {
+          1024: {
+            slidesPerView: 3,
+            spaceBetween: 15,
+          },
+          768: {
+            slidesPerView: 2,
+            spaceBetween: 15,
+          },
+          640: {
+            slidesPerView: 2,
+            spaceBetween: 15,
+          },
+          320: {
+            slidesPerView: 1,
+            spaceBetween: 15,
+          }
+        },
+        pagination: {
+          el: '.swiper-pagination4',
+          clickable: 'True',
+        },
+      });
+      var swiper5 = new Swiper('.swiper5', {
+        slidesPerView: 3,
+        spaceBetween: 30,
+        autoplay: 1000,
+        speed: 800,
+        simulateTouch: true,
+        breakpoints: {
+          1024: {
+            slidesPerView: 3,
+            spaceBetween: 15,
+          },
+          768: {
+            slidesPerView: 2,
+            spaceBetween: 15,
+          },
+          640: {
+            slidesPerView: 1,
+            spaceBetween: 15,
+          },
+          320: {
+            slidesPerView: 1,
+            spaceBetween: 15,
+          }
+        },
+        pagination: {
+          el: '.swiper-pagination5',
+          clickable: 'True',
+        },
+      });
+    </script>
 
 </body>
 </html>
