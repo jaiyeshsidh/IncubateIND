@@ -115,9 +115,9 @@ h1, h2, h3, h4, h5, h6 {
   padding: 20px 0;
   height: 84px;
   transition: all 0.5s;
-  z-index: 997;
+  z-index: 2021;
   background: #fff;
-  box-shadow: 0px -1px 12px 0px rgba(0, 0, 0, 0.06);
+  box-shadow: 0px 5px 12px 0px rgba(0, 0, 0, 0.06);
 }
 
 #header #logo h1 {
@@ -605,6 +605,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #757575;
   border-radius: 0;
   border: 2px solid #fff;
+  font-size:  14px;
 }
 .nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
   color: #4c3aad !important;
@@ -634,6 +635,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   background:#fff;
   padding: 15px 20px 10px 20px;
   border-radius: 12px;
+  z-index:  1000;
 }
 .login-form{
   background:rgba(255,255,255,0.8);
@@ -1247,4 +1249,74 @@ footer{
   padding: 5px;
   border-radius: 10px;
   margin: 0 5px;
+}
+
+
+
+
+/*   Misc   */
+.form-slideshow{
+  width: 80% !important; 
+  margin-left: 0px !important; 
+  padding-left: 0px !important;
+}
+.desk-off{
+  display: none;
+}
+.get-started{
+  background-color: #4c3aad;
+  color: #fff;
+  border-radius: 20px;
+  padding: 15px 30px;
+  display: block;
+  margin:  30px auto;
+}
+
+
+
+/* ########### Mobile ############## */
+
+@media (max-width: 1199px){
+  .id_intro .login {
+    margin-left: 100px;
+  }
+}
+@media (max-width: 991px){
+  section {
+    padding: 30px 0;
+  }
+  .mob-on{
+    display: block;
+  }
+  .mob-off{
+    display: none;
+  }
+  .carousel-indicators{
+    margin:auto !important;
+  }
+  .form-slideshow{
+    width: 100% !important;
+  }
+  #intro h4{
+    text-align: center;
+  }
+  .carousel-indicators{
+    padding-bottom: 20px;
+  }
+}
+
+@media (max-width: 767px){
+  #upcoming_events{
+    padding: 15px 0;
+  }
+  #intro{
+    padding: 0px;
+  }
+  #features{
+    padding: 5px 0;
+  }
+  #features h1{
+    text-align: left !important;
+  }
+  
 }
