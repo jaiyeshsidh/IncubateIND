@@ -1272,9 +1272,10 @@ footer{
 .get-started{
   background-color: #4c3aad;
   color: #fff;
-  border-radius: 20px;
+  border-radius: 40px;
   padding: 15px 30px;
   display: block;
+  border: 0;
   margin:  30px auto;
 }
 
