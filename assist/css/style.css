@@ -769,6 +769,8 @@ list-style-type:none;
   padding: 50px 50px;
   box-shadow: 0px 0px 15px 1px rgba(0,0,0,0.04);
   text-align:  center;
+  height: 344px;
+  margin-right: 20px;
 }
 #features .insider p{
   margin-top: 20px;
@@ -790,6 +792,12 @@ list-style-type:none;
   font-size: 13px;
   color: #4c3aad;
   cursor: pointer;
+  position:  absolute;
+  bottom:  30px;
+  /* text-align:  center; */
+  /* margin: auto; */
+  /* display: block; */
+  /* left: 20vw; */
 }
 h1{
   font-weight: 700 !important;
@@ -1271,6 +1279,9 @@ footer{
   display: block;
   margin:  30px auto;
 }
+/* #features .mob_feature .swiper-slide{
+  width: 320px !important;
+} */
 
 
 
@@ -1279,6 +1290,9 @@ footer{
 @media (max-width: 1199px){
   .id_intro .login {
     margin-left: 100px;
+  }
+  .desk-off{
+    display: none;
   }
 }
 @media (max-width: 991px){
@@ -1291,6 +1305,14 @@ footer{
   .mob-off{
     display: none;
   }
+  /* #features .container{
+    max-width: 100% !important;
+    margin-right: 0px !important;
+    padding-right: 0 !important;
+    margin-left: 0px !important;
+    width: 100% !important;
+    padding-left: 0px !important;
+  } */
   .carousel-indicators{
     margin:auto !important;
   }
@@ -1303,20 +1325,84 @@ footer{
   .carousel-indicators{
     padding-bottom: 20px;
   }
+  .desk-off{
+    display: block;
+  }
 }
 
 @media (max-width: 767px){
   #upcoming_events{
     padding: 15px 0;
   }
+  #features{
+    padding: 20px 0;
+  }
   #intro{
     padding: 0px;
   }
-  #features{
-    padding: 5px 0;
-  }
-  #features h1{
-    text-align: left !important;
+  
+  .desk-off{
+    display: block;
   }
   
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+::-webkit-scrollbar { 
+  display: none; 
+}
+
+.row-card{
+  align-items: stretch;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+.card {
+  background-color: #fff0 !important;
+  border: none !important;
+  /*float: left;*/
+  max-width: 304px;
+  padding: 10px 10px;
+  margin-bottom: 2rem;
+  border: 0;
+  flex-basis: 94%;
+  flex-grow: 0;
+  flex-shrink: 0;
+  margin-left: -20px;
+}
+
+.card > img {
+  margin-bottom: .75rem;
+}
+
+.card-text {
+  font-size: 85%;
+}
+
+
+
+
+
+
+
+
+
+
