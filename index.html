@@ -449,7 +449,9 @@
   ============================-->
 
 <section id="fh">
-    <h1>Featured Hackathon</h1>
+  <div class="container">
+  <h1>Featured Hackathon</h1>
+</div>  
   <div class="container hidden-xs hidden-sm">
       <div class="col-sm-3 col-xs-12">
         <div style="background-color: #fff; border: 1px solid #ebebeb;">
@@ -617,9 +619,9 @@
   <section id="testimonial">
       <div class="container">
         <h1>Testimonials</h1>
-          <ul class="nav nav-pills">
-            <li class="active"><a data-toggle="pill" href="#dev">Business</a></li>
-            <li><a data-toggle="pill" href="#busi">Developers</a></li>
+          <ul class="nav nav-tabs">
+            <li class="active"><a data-toggle="tab" href="#dev">Business</a></li>
+            <li><a data-toggle="tab" href="#busi">Developers</a></li>
           </ul>
         <div class="insider">
             <div class="tab-content" style="padding-top: 40px;">
@@ -636,7 +638,7 @@
                           <img src="assist/img/Layer 889.jpg">
                         </div>
                         <div class="side-hub">
-                          <h2>Haimal Khetan</h2>
+                          <h2>Khelarka Kantop</h2>
                           <p>Winner of Jivox Hackathon</p>
                         </div>
                       </div>
@@ -718,17 +720,17 @@
                     
                   </div>
                   <!-- Add Pagination -->
-                  <div class="swiper-pagination4" style="text-align: center;"></div>
+                  <div class="swiper-pagination3" style="text-align: center;"></div>
                 </div>
                 <!--SWIPER ENDS-->
               </div>
               <div id="busi" class="tab-pane fade">
                                 
                 <!-- Swiper -->
-                <div class="swiper-container swiper3">
+                <div class="swiper-container swiper4">
                     <div class="swiper-wrapper">
-
-
+  
+  
                       <div class="swiper-slide">
                         <div class="outer-hub">
                           <div class="image-hub">
@@ -813,7 +815,7 @@
                                     <p>"I would like to thank the incubateind for putting up such an awesome event. Events like this hackathon are an opportunity to showcase my coding skills, creativeness and working with team. I am totally thrilled to be a winner and working for Ixigo"</p>
                                   </div>
                                 </div>
-
+  
                       
                     </div>
                     <!-- Add Pagination -->
@@ -821,7 +823,12 @@
                   </div>
                   <!--SWIPER ENDS-->
 
+
+
+
+
               </div>
+              
             </div>
         </div>
         <!-- Inside_Ends -->
@@ -961,9 +968,12 @@
 </section>
 
 
-<footer>
+<footer class="">
 
-  <div class="container">
+  <div class="container copyright hidden-lg hidden-md">
+    <p>Copyright@ 2018 IncubateIND.com. All Rights Reserved.</p>
+  </div>
+  <div class="container hidden-sm hidden-xs">
     <div class="col-sm-3 col-1">
       <img src="assist/img/Layer 914.png">
       <p>Keep in Touch</p>
@@ -1032,7 +1042,13 @@
   <script src="assist/js/main.js"></script>
 
 
-
+  <script>
+    $(document).ready(function(){
+      $("#busi").click(function(){
+          $("#busi").addClass("active");
+      });
+  });
+</script>
   
     <!-- Initialize Swiper -->
     <script>
@@ -1106,6 +1122,40 @@
         }
       });
       var swiper3 = new Swiper('.swiper3', {
+        slidesPerView: 3,
+        spaceBetween: 30,
+        grabCursor: true,
+        autoplay: 1000,
+        speed: 800,
+        simulateTouch: true,
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+        breakpoints: {
+          1024: {
+            slidesPerView: 3,
+            spaceBetween: 15,
+          },
+          768: {
+            slidesPerView: 1,
+            spaceBetween: 15,
+          },
+          640: {
+            slidesPerView: 1,
+            spaceBetween: 15,
+          },
+          320: {
+            slidesPerView: 1,
+            spaceBetween: 15,
+          }
+        },
+        pagination: {
+          el: '.swiper-pagination3',
+          clickable: 'True',
+        },
+      });
+      var swiper = new Swiper('.swiper4', {
         slidesPerView: 3,
         spaceBetween: 30,
         grabCursor: true,
