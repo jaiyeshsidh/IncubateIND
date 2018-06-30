@@ -482,9 +482,8 @@ Mobile Naviation Bar
   /* color: #fff !important; */
 }
 #intro h4{
-  font-weight: 700;
-  font-size: 2em;
-  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 16px;
 }
 #intro h3{
   text-transform: uppercase;
@@ -1318,7 +1317,7 @@ footer{
     width: 100% !important;
   }
   #intro h4{
-    text-align: center;
+    /* text-align: center; */
   }
   .carousel-indicators{
     padding-bottom: 20px;
