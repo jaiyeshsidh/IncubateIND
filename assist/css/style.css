@@ -1392,7 +1392,7 @@ footer{
     border-radius: 40px;
     /* margin-left: 10px; */
     margin-top: 20px;
-}
+  }
   .inner-form {
     background-color: #fff;
     padding: 30px 20px;
@@ -1409,6 +1409,13 @@ footer{
     color: #6e6e6f;
     margin: auto;
     width: 100%;
+  }
+  .header-mobile{
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+  #header .nav-menu li{
+    margin-left:0  !important;
   }
 }
 
