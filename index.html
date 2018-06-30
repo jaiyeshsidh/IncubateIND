@@ -49,23 +49,27 @@
 
 <body id="body">
 
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="#">About</a>
+  <a href="#">Services</a>
+  <a href="#">Clients</a>
+  <a href="#">Contact</a>
+</div>
   <!--==========================
     Header
   ============================-->
   <header id="header">
     <div class="container header-mobile">
-
+        
+      <span style="font-size:30px;cursor:pointer;float: left; padding-right: 20px; padding-left: 5px;" onclick="openNav()">&#9776;</span>
       <div id="logo" class="pull-left">
         <!-- ############################### Changes Next Line ############################### -->
         <a href="#body">
-            <svg 
-            xmlns="http://www.w3.org/2000/svg"
-            xmlns:xlink="http://www.w3.org/1999/xlink"
-            width="1.889in" height="0.708in">
-           <image  x="0px" y="0px" width="136px" height="51px"  xlink:href="data:img/png;base64,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" />
-           </svg>
-           </a>
+          <img src="assist/img/logo.png">
+        </a>
       </div>
+      <button class="pull-right" style="background-color: #ffffff; color: #4c3aad; border-radius: 40px; padding: 12px 20px; display: block; border: 0; font-weight: 700;border: 2px solid #4c3aad;" type="submit">Login/Sign Up</button>
 
       <nav id="nav-menu-container">
         <ul class="nav-menu">
@@ -1041,6 +1045,15 @@
   <!-- Template Main Javascript File -->
   <script src="assist/js/main.js"></script>
 
+  <script>
+  function openNav() {
+      document.getElementById("mySidenav").style.width = "100%";
+  }
+  
+  function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+  }
+  </script>
 
   <script>
     $(document).ready(function(){
