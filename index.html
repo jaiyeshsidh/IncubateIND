@@ -69,7 +69,7 @@
           <img src="assist/img/logo.png">
         </a>
       </div>
-      <button class="pull-right hidden-lg hidden-md hidden-sm" style="background-color: #ffffff; color: #4c3aad; border-radius: 40px; padding: 12px 20px; display: block; border: 0; font-weight: 700;border: 2px solid #4c3aad;" type="submit">Login/Sign Up</button>
+      <button class="pull-right hidden-lg hidden-md hidden-sm" type="button" data-toggle="modal" data-target="#signIn" style="background-color: #ffffff; color: #4c3aad; border-radius: 40px; padding: 12px 20px; display: block; border: 0; font-weight: 700;border: 2px solid #4c3aad;" type="submit">Login/Sign Up</button>
 
       <nav id="nav-menu-container">
         <ul class="nav-menu">
@@ -81,11 +81,227 @@
             </ul>
           </li>
           <li class="menu-school"><a>For Campus</a></li>
-          <li class="btn nav-signin"><a>LogIn/Sign Up</a></li>
+          <li class="btn nav-signin"><a type="button" data-toggle="modal" data-target="#signIn">LogIn/Sign Up</a></li>
         </ul>
       </nav><!-- #nav-menu-container -->
     </div>
   </header><!-- #header -->
+
+
+
+
+
+ 
+
+    <!-- ======================
+  Sign in Modal
+  ====================== -->
+  <!-- Modal -->
+  <div class="modal fade" id="signIn" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" >
+      <div id="login-overlay" class="modal-dialog">
+          <div class="modal-content" style="box-shadow: 0;">
+              <div class="modal-body">
+                  <div class="row">
+                      <div class="col-sm-5 modal-login-left hidden-xs" >
+                          <h2 style="font-size: 22px;">Login</h2>
+                          <h4 style="font-size: 12px; font-weight: 400; letter-spacing: 0.3px; line-height: 17px;">Join this platform with one of the biggest Community.</h4>
+
+                          <img src="assist/img/Layer 929.png" style="width: 100%;display: block;margin: auto;margin-top: 200px;">
+                      </div>
+                      <div class="col-sm-7 col-xs-12">
+                          <div id="tabs" class="login ">
+                              <div class="form-body" style="border-radius: 0px;">
+                                <ul class="nav nav-tabs final-login" style="border: none;">
+                                    <li class="active" ><a data-toggle="tab" href="#sectionA">Developer</a></li>
+                                    <li ><a data-toggle="tab" href="#sectionB">Business</a></li>
+                                    <li ><a data-toggle="tab" href="#sectionC">Campus</a></li>
+                                </ul>
+                                <div class="tab-content">
+                                  
+                                  <div id="sectionA" class="tab-pane fade in active">
+                                    <div class="innter-form">
+                                      <form class="sa-innate-form" method="post">
+                                        <input type="text" name="Email ID/Phone Number" placeholder="Email ID/Phone Number">
+                                        <input type="password" name="password" placeholder="Password">
+                                        <p style="padding: 10px 0;">
+                                          <a href="">Recover Password?</a>
+                                          <a href="" style="float: right;"><span style="color:#9c9c9c;">Not Registered?</span> Signup</a>
+                                        </p>
+                                        <button type="submit">Get Started Today</button>
+                                        <p class="text-center" style="margin-bottom: 30px;"> or </p>
+                                      </form>
+                                    </div>
+                                    <div class="social-login">
+                                      <ul>
+                                        <li><a href=""><i class="fab fa-facebook"></i> Facebook</a></li>
+                                        <li><a href=""><i class="fa fa-google-plus"></i> Google+</a></li>
+                                        <li><a href=""><i class="fa fa-github"></i> Github</a></li>
+                                      </ul>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                  </div>
+                                  
+                                  <div id="sectionB" class="tab-pane fade">
+                                      <div class="innter-form">
+                                          <form class="sa-innate-form" method="post">
+                                            <input type="text" name="Email ID/Phone Number" placeholder="Email ID/Phone Number">
+                                            <input type="password" name="password" placeholder="Password">
+                                            <p style="padding: 10px 0;">
+                                              <a href="">Recover Password?</a>
+                                              <a href="" style="float: right;"><span style="color:#9c9c9c;">Not Registered?</span> Signup</a>
+                                            </p>
+                                            <button type="submit">Get Started Today</button>
+                                            <p class="text-center" style="margin-bottom: 30px;"> or </p>
+                                          </form>
+                                        </div>
+                                        <div class="social-login">
+                                          <ul>
+                                            <li><a href=""><i class="fab fa-facebook"></i> Facebook</a></li>
+                                            <li><a href=""><i class="fa fa-google-plus"></i> Google+</a></li>
+                                            <li><a href=""><i class="fa fa-github"></i> Github</a></li>
+                                          </ul>
+                                        </div>
+                                        <div class="clearfix"></div>
+                                  </div>
+                                  
+                                  <div id="sectionC" class="tab-pane fade">
+                                    <div class="innter-form">
+                                      <form class="sa-innate-form" method="post">
+                                        <input type="text" name="Email ID/Phone Number" placeholder="Email ID/Phone Number">
+                                        <input type="password" name="password" placeholder="Password">
+                                        <p style="padding: 10px 0;">
+                                          <a href="">Recover Password?</a>
+                                          <a href="" style="float: right;"><span style="color:#9c9c9c;">Not Registered?</span> Signup</a>
+                                        </p>
+                                        <button type="submit">Get Started Today</button>
+                                        <p class="text-center" style="margin-bottom: 30px;"> or </p>
+                                      </form>
+                                    </div>
+                                    <div class="social-login">
+                                      <ul>
+                                        <li><a href=""><i class="fab fa-facebook"></i> Facebook</a></li>
+                                        <li><a href=""><i class="fa fa-google-plus"></i> Google+</a></li>
+                                        <li><a href=""><i class="fa fa-github"></i> Github</a></li>
+                                      </ul>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                  </div>
+                                </div>
+                              </div>
+                          </div>
+                      </div>
+                     
+                  </div>
+              </div>
+          </div>
+      </div>
+      <!-- <div class="modal-dialog">
+      
+        
+        <div class="modal-content">
+          <div class="modal-body">
+            <div class="col-sm-5 modal-login-left">
+
+              <h2>Login</h2>
+              <h4>Join this platform with one of the biggest Community.</h4>
+
+              <img src="assist/img/Layer 929.jpg" style="width:80%; display: block; margin: auto; position: relative; bottom: 0;">
+
+            </div>
+            <div class="col-sm-7 modal-login-right">
+
+                <div id="tabs" class="login hidden-sm hidden-xs">
+                    <div class="    ody">
+                      <ul class="nav nav-tabs final-login" style="border: none;">
+                          <li class="active" data-target="#myCarousel" data-slide-to="0"><a data-toggle="tab" href="#sectionA">Developer</a></li>
+                          <li data-target="#myCarousel" data-slide-to="1"><a data-toggle="tab" href="#sectionB">Business</a></li>
+                          <li data-target="#myCarousel" data-slide-to="2"><a data-toggle="tab" href="#sectionC">Campus</a></li>
+                      </ul>
+                      <div class="tab-content">
+                        
+                        <div id="sectionA" class="tab-pane fade in active">
+                          <div class="innter-form">
+                            <form class="sa-innate-form" method="post">
+                              <input type="text" name="Email ID/Phone Number" placeholder="Email ID/Phone Number">
+                              <input type="password" name="password" placeholder="Password">
+                              <p style="padding: 10px 0;">
+                                <a href="">Recover Password?</a>
+                                <a href="" style="float: right;"><span style="color:#9c9c9c;">Not Registered?</span> Signup</a>
+                              </p>
+                              <button type="submit">Get Started Today</button>
+                              <p class="text-center" style="margin-bottom: 30px;"> or </p>
+                            </form>
+                          </div>
+                          <div class="social-login">
+                            <ul>
+                              <li><a href=""><i class="fab fa-facebook"></i> Facebook</a></li>
+                              <li><a href=""><i class="fa fa-google-plus"></i> Google+</a></li>
+                              <li><a href=""><i class="fa fa-github"></i> Github</a></li>
+                            </ul>
+                          </div>
+                          <div class="clearfix"></div>
+                        </div>
+                        
+                        <div id="sectionB" class="tab-pane fade">
+                            <div class="innter-form">
+                                <form class="sa-innate-form" method="post">
+                                  <input type="text" name="Email ID/Phone Number" placeholder="Email ID/Phone Number">
+                                  <input type="password" name="password" placeholder="Password">
+                                  <p style="padding: 10px 0;">
+                                    <a href="">Recover Password?</a>
+                                    <a href="" style="float: right;"><span style="color:#9c9c9c;">Not Registered?</span> Signup</a>
+                                  </p>
+                                  <button type="submit">Get Started Today</button>
+                                  <p class="text-center" style="margin-bottom: 30px;"> or </p>
+                                </form>
+                              </div>
+                              <div class="social-login">
+                                <ul>
+                                  <li><a href=""><i class="fab fa-facebook"></i> Facebook</a></li>
+                                  <li><a href=""><i class="fa fa-google-plus"></i> Google+</a></li>
+                                  <li><a href=""><i class="fa fa-github"></i> Github</a></li>
+                                </ul>
+                              </div>
+                              <div class="clearfix"></div>
+                        </div>
+                        
+                        <div id="sectionC" class="tab-pane fade">
+                          <div class="innter-form">
+                            <form class="sa-innate-form" method="post">
+                              <input type="text" name="Email ID/Phone Number" placeholder="Email ID/Phone Number">
+                              <input type="password" name="password" placeholder="Password">
+                              <p style="padding: 10px 0;">
+                                <a href="">Recover Password?</a>
+                                <a href="" style="float: right;"><span style="color:#9c9c9c;">Not Registered?</span> Signup</a>
+                              </p>
+                              <button type="submit">Get Started Today</button>
+                              <p class="text-center" style="margin-bottom: 30px;"> or </p>
+                            </form>
+                          </div>
+                          <div class="social-login">
+                            <ul>
+                              <li><a href=""><i class="fab fa-facebook"></i> Facebook</a></li>
+                              <li><a href=""><i class="fa fa-google-plus"></i> Google+</a></li>
+                              <li><a href=""><i class="fa fa-github"></i> Github</a></li>
+                            </ul>
+                          </div>
+                          <div class="clearfix"></div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <p>Some text in the modal.</p>
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+        
+      </div> -->
+    </div>
+
 
   <!--==========================
     Intro Section
@@ -132,7 +348,7 @@
             <!--Login Starts-->
             <div id="tabs" class="login hidden-sm hidden-xs">
                 <div class="form-body">
-                  <ul class="nav nav-tabs final-login">
+                  <ul class="nav nav-tabs final-login" style="border: none;">
                       <li class="active" data-target="#myCarousel" data-slide-to="0"><a data-toggle="tab" href="#sectionA">Developer</a></li>
                       <li data-target="#myCarousel" data-slide-to="1"><a data-toggle="tab" href="#sectionB">Business</a></li>
                       <li data-target="#myCarousel" data-slide-to="2"><a data-toggle="tab" href="#sectionC">Campus</a></li>
@@ -977,7 +1193,7 @@
             
           </div>
           <!-- Add Pagination -->
-          <div class="swiper-pagination5" style="text-align: center;"></div>
+          <div class="swiper-pagination5" style="text-align: center; margin-top: 20px;"></div>
         </div>
         <!--SWIPER ENDS-->
 
@@ -1257,6 +1473,13 @@
 
       
     </script>
+    <script>
+    $('.modal').on('show.bs.modal', function () {
+      $("body").css('overflow', 'hidden');
+    }).on("hidden", function () {
+            $("body").css('overflow', 'auto');
+    });
+  </script>
 
 </body>
 </html>
