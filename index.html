@@ -1,829 +1,1071 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
 
-    <!-- Favicon -->
-    <link rel="icon" href="assets/images/favicon.png">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+  <!-- Favicon -->
+  <link rel="icon" href="assets/images/favicon.png">
 
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="assets/css/custom.css">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+    crossorigin="anonymous">
 
-    <!-- Font-Awesome CSS -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="assets/css/custom.css">
 
-    <!-- Swiper CSS -->
-    <link rel="stylesheet" href="assets/css/swiper.min.css">
-    
-    <!-- Title -->
-    <title>IncubateIND - Hack | Code | Connect</title>
+  <!-- Font-Awesome CSS -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
+    crossorigin="anonymous">
 
-    <!-- sliderTabs CSS -->
-    <link rel="stylesheet" href="assets/css/jquery.sliderTabs.css">
-    <script
-  src="https://code.jquery.com/jquery-2.1.3.min.js"
-  integrity="sha256-ivk71nXhz9nsyFDoYoGf2sbjrR9ddh+XDkCcfZxjvcM="
-  crossorigin="anonymous"></script>
-    
+  <!-- Swiper CSS -->
+  <link rel="stylesheet" href="assets/css/swiper.min.css">
 
-  </head>
-  <body>
+  <!-- Title -->
+  <title>IncubateIND - Hack | Code | Connect</title>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-theme-light">
-      <div class="container">
-        
-        <a class="navbar-brand" href="#">
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <img src="assets/images/Layer 1.png" width="auto" height="50" alt="">
-        </a>
-        
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="#">For Developers <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                For Business
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-              </div>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">For Campus</a>
-            </li>
-          </ul>
-          
-        </div>
-        <button class="signup-btn">Login/SignUp</button>
-      </div>
-    </nav>
 
-    <section id="landing">
-      <div id="carouselIndicators" class="carousel slide" data-ride="carousel" >
-        <ol class="carousel-indicators">
-          <li data-target="#carouselIndicators" data-slide-to="0" class="active"></li>
-          <li data-target="#carouselIndicators" data-slide-to="1"></li>
-          <li data-target="#carouselIndicators" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner" role="listbox">
-          <!-- Slide One - Set the background image for this slide in the line below -->
-          <div class="carousel-item active" style="background-image: url('assets/images/Layer 932.jpg')">
-            <div class="carousel-caption d-none d-md-block">
-              <h3>First Slide</h3>
-              <p>This is a description for the first slide.</p>
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-light sticky-top bg-theme-light">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+          aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <img src="assets/images/Layer 1.png" width="auto" height="50" alt="">
+      </a>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">For Developers
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+              aria-expanded="false">
+              For Business
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Innovation</a>
+              <a class="dropdown-item" href="#">Recruitment</a>
             </div>
-          </div>
-          <!-- Slide Two - Set the background image for this slide in the line below -->
-          <div class="carousel-item" style="background-image: url('assets/images/Layer 932.jpg')">
-            <div class="carousel-caption d-none d-md-block">
-              <h3>Second Slide</h3>
-              <p>This is a description for the second slide.</p>
-            </div>
-          </div>
-          <!-- Slide Three - Set the background image for this slide in the line below -->
-          <div class="carousel-item" style="background-image: url('assets/images/Layer 932.jpg')">
-            <div class="carousel-caption d-none d-md-block">
-              <h3>Third Slide</h3>
-              <p>This is a description for the third slide.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      
-      <!-- <div id="mySliderTabs" style=" position: absolute; top: 130px; right: 100px;">
-        
-        <ul>
-          <li><a href="#dev">Developer</a></li>
-          <li><a href="#bus">Business</a></li>
-          <li><a href="#cam">Campus</a></li>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">For Campus</a>
+          </li>
         </ul>
-      
-        
-        <div id="dev">
-            <div class="innter-form">
-                
-                <div class="panel">
-                    <div class="formset">
-                      <div class="form-group">
-                        <lable class="form-label">User Name</lable>
-                        <input class="form-control" type="text" style="border-radius: 5px 5px 0 0 ;"/>
-                      </div>
-                      <div class="form-group">
-                        <lable class="form-label">Password</lable>
-                        <input class="form-control" type="password"  style="border-radius: 0 0 5px 5px;"/>
-                      </div>
-                      <button class="sign-btn">Get Started Today</button>
-                    </div>
-                  </div>
 
-            </div>
-            <div class="social-login">
-              <ul>
-                <li><a href=""><i class="fab fa-facebook"></i> Facebook</a></li>
-                <li><a href=""><i class="fa fa-google-plus"></i> Google+</a></li>
-                <li><a href=""><i class="fa fa-github"></i> Github</a></li>
-              </ul>
-            </div>
-            <div class="clearfix"></div>
+      </div>
+      <button class="signup-btn" data-toggle="modal" data-target="#signinModal" alt="Login/Signup">Login/SignUp</button>
+    </div>
+  </nav>
 
-        </div>
-        <div id="bus">
-            <div class="innter-form">
-              <form class="sa-innate-form" method="post">
-                <input type="text" name="Email ID/Phone Number" placeholder="Email ID/Phone Number">
-                <input type="password" name="password" placeholder="Password">
-                <p style="padding: 10px 0;">
-                  <a href="">Recover Password?</a>
-                  <a href="" style="float: right;"><span style="color:#9c9c9c;">Not Registered?</span> Signup</a>
-                </p>
-                <button type="submit">Get Started Today</button>
-                <p class="text-center" style="margin-bottom: 30px;"> or </p>
-              </form>
-            </div>
-            <div class="social-login">
-              <ul>
-                <li><a href=""><i class="fab fa-facebook"></i> Facebook</a></li>
-                <li><a href=""><i class="fa fa-google-plus"></i> Google+</a></li>
-                <li><a href=""><i class="fa fa-github"></i> Github</a></li>
-              </ul>
-            </div>
-            <div class="clearfix"></div>
-        </div>
-        <div id="cam">
-            <div class="innter-form">
-              <form class="sa-innate-form" method="post">
-                <input type="text" name="Email ID/Phone Number" placeholder="Email ID/Phone Number">
-                <input type="password" name="password" placeholder="Password">
-                <p style="padding: 10px 0;">
-                  <a href="">Recover Password?</a>
-                  <a href="" style="float: right;"><span style="color:#9c9c9c;">Not Registered?</span> Signup</a>
-                </p>
-                <button type="submit">Get Started Today</button>
-                <p class="text-center" style="margin-bottom: 30px;"> or </p>
-              </form>
-            </div>
-            <div class="social-login">
-              <ul>
-                <li><a href=""><i class="fab fa-facebook"></i> Facebook</a></li>
-                <li><a href=""><i class="fa fa-google-plus"></i> Google+</a></li>
-                <li><a href=""><i class="fa fa-github"></i> Github</a></li>
-              </ul>
-            </div>
-            <div class="clearfix"></div>
-        </div>
-      </div> -->
-      <div id="tabs" class="login" style=" position: absolute; top: 130px; right: 100px;">
-          <div class="form-body">
-            <ul class="nav nav-tabs final-login" style="border: none;">
-                <li class="active" data-target="#myCarousel" data-slide-to="0"><a data-toggle="tab" href="#sectionA">Developer</a></li>
-                <li data-target="#myCarousel" data-slide-to="1"><a data-toggle="tab" href="#sectionB">Business</a></li>
-                <li data-target="#myCarousel" data-slide-to="2"><a data-toggle="tab" href="#sectionC">Campus</a></li>
-            </ul>
-            <div class="tab-content">
-              <!--Section A-->
-              <div id="sectionA" class="tab-pane fade active">
-                <div class="innter-form">
-                  <form class="sa-innate-form" method="post">
-                    <input type="text" name="Email ID/Phone Number" placeholder="Email ID/Phone Number">
-                    <input type="password" name="password" placeholder="Password">
-                    <p style="padding: 10px 0;">
-                      <a href="">Recover Password?</a>
-                      <a href="" style="float: right;"><span style="color:#9c9c9c;">Not Registered?</span> Signup</a>
-                    </p>
-                    <button type="submit">Get Started Today</button>
-                    <p class="text-center" style="margin-bottom: 30px;"> or </p>
-                  </form>
-                </div>
-                <div class="social-login">
-                  <ul>
-                    <li><a href=""><i class="fab fa-facebook"></i> Facebook</a></li>
-                    <li><a href=""><i class="fa fa-google-plus"></i> Google+</a></li>
-                    <li><a href=""><i class="fa fa-github"></i> Github</a></li>
-                  </ul>
-                </div>
-                <div class="clearfix"></div>
+  <!-- Modal -->
+  <div class="modal fade" id="signinModal" tabindex="-1" role="dialog" aria-labelledby="signinModal" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-body" style="background: linear-gradient(#552eaf, #d056b0); padding: 0px; box-shadow: 0px 0px 10px rgba(0,0,0,0.4);">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="margin:-11px -54px; background: none !important; border: none !important;">
+            <img src="assets/images/close.svg" style="width:18px;">
+          </button>
+          <div class="row">
+            <div class="col-sm-5" style="margin-right: -14px;">
+              <div class="modal-login-left d-none d-xl-block d-lg-block d-md-block d-sm-block">
+                <h2 style="font-size: 24px; color:#fff; font-weight: 700;">Login</h2>
+                <h4 style="font-size: 14px; font-weight: 600; letter-spacing: 0.3px; line-height: 21px; color: #fff; margin-top: 30p">Join this platform with one of the biggest Community.</h4>
+                <img src="assets/images/Layer 929.png" style="width: 100%;display: block;margin: auto;margin-top: 130px;">
               </div>
-              <!--Section B-->
-              <div id="sectionB" class="tab-pane fade">
-                  <div class="innter-form">
-                      <form class="sa-innate-form" method="post">
-                        <input type="text" name="Email ID/Phone Number" placeholder="Email ID/Phone Number">
-                        <input type="password" name="password" placeholder="Password">
-                        <p style="padding: 10px 0;">
-                          <a href="">Recover Password?</a>
-                          <a href="" style="float: right;"><span style="color:#9c9c9c;">Not Registered?</span> Signup</a>
+            </div>
+            <div class="col-sm-7" style="background-color: #fff; padding-top: 15px; padding-bottom: 15px;">
+              <div>
+                <ul class="nav nav-pills nav-justified mb-3" id="pills-tab" role="tablist">
+                  <li class="nav-item">
+                    <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home"
+                      aria-selected="true">Developer</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile"
+                      aria-selected="false">Business</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact"
+                      aria-selected="false">Campus</a>
+                  </li>
+                </ul>
+                <div class="tab-content" id="pills-tabContent">
+                  <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                    <div class="innter-form">
+                      <form class="sa-innate-form" action="" autocomplete="off">
+                        <div class="field">
+                          <input type="text" name="userame" id="username" placeholder="example@incubateind.com">
+                          <label for="username">Enter your Email/Phone Number</label>
+                        </div>
+                        <div class="field">
+                          <input type="password" name="password" id="password" placeholder="Password">
+                          <label for="password">Password</label>
+                        </div>
+                        <p style="padding: 20px 0;">
+                          <a style="color: #5d24dd; font-weight: 600;" href="">Recover Password</a>
+                          <a href="" style="float: right; color: #5d24dd;font-weight: 600;">
+                            <span style="font-weight: 400;color:#9c9c9c;">Not Registered?</span> Signup</a>
                         </p>
                         <button type="submit">Get Started Today</button>
-                        <p class="text-center" style="margin-bottom: 30px;"> or </p>
+                        <p class="text-center" style="margin-bottom: 20px;"> or </p>
                       </form>
+                      <div class="social-login">
+                        <ul>
+                          <li>
+                            <a href="">
+                              <i class="fab fa-facebook"></i> Facebook</a>
+                          </li>
+                          <li>
+                            <a href="">
+                              <i class="fab fa-google-plus-g"></i> Google+</a>
+                          </li>
+                          <li>
+                            <a href="">
+                              <i class="fab fa-github"></i> Github</a>
+                          </li>
+                        </ul>
+                      </div>
                     </div>
-                    <div class="social-login">
-                      <ul>
-                        <li><a href=""><i class="fab fa-facebook"></i> Facebook</a></li>
-                        <li><a href=""><i class="fa fa-google-plus"></i> Google+</a></li>
-                        <li><a href=""><i class="fa fa-github"></i> Github</a></li>
-                      </ul>
+                  </div>
+                  <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                    <div class="innter-form">
+                      <form class="sa-innate-form" action="" autocomplete="off">
+                        <div class="field">
+                          <input type="text" name="userame" id="username" placeholder="example@incubateind.com">
+                          <label for="username">Enter your Email/Phone Number</label>
+                        </div>
+                        <div class="field">
+                          <input type="password" name="password" id="password" placeholder="Password">
+                          <label for="password">Password</label>
+                        </div>
+                        <p style="padding: 20px 0;">
+                          <a style="color: #5d24dd; font-weight: 600;" href="">Recover Password</a>
+                          <a href="" style="float: right; color: #5d24dd;font-weight: 600;">
+                            <span style="font-weight: 400;color:#9c9c9c;">Not Registered?</span> Signup</a>
+                        </p>
+                        <button type="submit">Get Started Today</button>
+                        <p class="text-center" style="margin-bottom: 20px;"> or </p>
+                      </form>
+                      <div class="social-login">
+                        <ul>
+                          <li>
+                            <a href="">
+                              <i class="fab fa-facebook"></i> Facebook</a>
+                          </li>
+                          <li>
+                            <a href="">
+                              <i class="fab fa-google-plus-g"></i> Google+</a>
+                          </li>
+                          <li>
+                            <a href="">
+                              <i class="fab fa-github"></i> Github</a>
+                          </li>
+                        </ul>
+                      </div>
                     </div>
-                    <div class="clearfix"></div>
+                  </div>
+                  <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+                    <div class="innter-form">
+                      <form class="sa-innate-form" action="" autocomplete="off">
+                        <div class="field">
+                          <input type="text" name="userame" id="username" placeholder="example@incubateind.com">
+                          <label for="username">Enter your Email/Phone Number</label>
+                        </div>
+                        <div class="field">
+                          <input type="password" name="password" id="password" placeholder="Password">
+                          <label for="password">Password</label>
+                        </div>
+                        <p style="padding: 20px 0;">
+                          <a style="color: #5d24dd; font-weight: 600;" href="">Recover Password</a>
+                          <a href="" style="float: right; color: #5d24dd;font-weight: 600;">
+                            <span style="font-weight: 400;color:#9c9c9c;">Not Registered?</span> Signup</a>
+                        </p>
+                        <button type="submit">Get Started Today</button>
+                        <p class="text-center" style="margin-bottom: 20px;"> or </p>
+                      </form>
+                      <div class="social-login">
+                        <ul>
+                          <li>
+                            <a href="">
+                              <i class="fab fa-facebook"></i> Facebook</a>
+                          </li>
+                          <li>
+                            <a href="">
+                              <i class="fab fa-google-plus-g"></i> Google+</a>
+                          </li>
+                          <li>
+                            <a href="">
+                              <i class="fab fa-github"></i> Github</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
-              <!--Section C-->
-              <div id="sectionC" class="tab-pane fade">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section id="landing">
+    <div>
+      <div id="carouselIndicators" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner" role="listbox">
+          <div class="carousel-item active" style="background-image: url('assets/images/Layer 932.jpg')"></div>
+          <div class="carousel-item" style="background-image: url('assets/images/Layer 933.jpg')"></div>
+          <div class="carousel-item" style="background-image: url('assets/images/Layer 934.jpg')"></div>
+          <div class="carousel-item" style="background-image: url('assets/images/Layer 935.jpg')"></div>
+          <div class="container">
+            <div class="carousel-caption ">
+              <p>Discover Innovation. Create Radical.</p>
+              <h3>BE THE CREATOR.</h3>
+            </div>
+            <ol class="carousel-indicators">
+              <li data-target="#carouselIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselIndicators" data-slide-to="2"></li>
+              <li data-target="#carouselIndicators" data-slide-to="3"></li>
+            </ol>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div id="sidekick">
+          <div>
+            <ul class="nav nav-pills nav-justified mb-3" id="pills-tab" role="tablist">
+              <li class="nav-item">
+                <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home"
+                  aria-selected="true">Developer</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile"
+                  aria-selected="false">Business</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact"
+                  aria-selected="false">Campus</a>
+              </li>
+            </ul>
+            <div class="tab-content" id="pills-tabContent">
+              <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
                 <div class="innter-form">
-                  <form class="sa-innate-form" method="post">
-                    <input type="text" name="Email ID/Phone Number" placeholder="Email ID/Phone Number">
-                    <input type="password" name="password" placeholder="Password">
-                    <p style="padding: 10px 0;">
-                      <a href="">Recover Password?</a>
-                      <a href="" style="float: right;"><span style="color:#9c9c9c;">Not Registered?</span> Signup</a>
+                  <form class="sa-innate-form" action="" autocomplete="off">
+                    <div class="field">
+                      <input type="text" name="userame" id="username" placeholder="example@incubateind.com">
+                      <label for="username">Enter your Email/Phone Number</label>
+                    </div>
+                    <div class="field">
+                      <input type="password" name="password" id="password" placeholder="Password">
+                      <label for="password">Password</label>
+                    </div>
+
+                    <p style="padding: 20px 0;">
+                      <a style="color: #5d24dd; font-weight: 600;" href="">Recover Password</a>
+                      <a href="" style="float: right; color: #5d24dd;font-weight: 600;">
+                        <span style="font-weight: 400;color:#9c9c9c;">Not Registered?</span> Signup</a>
                     </p>
                     <button type="submit">Get Started Today</button>
-                    <p class="text-center" style="margin-bottom: 30px;"> or </p>
+                    <p class="text-center" style="margin-bottom: 20px;"> or </p>
                   </form>
-                </div>
-                <div class="social-login">
-                  <ul>
-                    <li><a href=""><i class="fab fa-facebook"></i> Facebook</a></li>
-                    <li><a href=""><i class="fa fa-google-plus"></i> Google+</a></li>
-                    <li><a href=""><i class="fa fa-github"></i> Github</a></li>
-                  </ul>
-                </div>
-                <div class="clearfix"></div>
-              </div>
-            </div>
-          </div>
-      </div>
-
-    </section>
-
-    
-
-    <section id="companies-logo">
-      <div class="container">
-        <!-- Swiper -->
-        <div class="swiper-container swiper1">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide">
-              <div class="col-sm-4 col-3 ">
-                <img src="assets/images/Layer 869.jpg" style="width: 100%;">
-              </div>
-              <div class="col-sm-8 col-9">
-                <h5>Two Cities Hackathon</h5>
-                <p>on 15th July, 11:00PM</p>
-              </div>        
-            </div>
-            <div class="swiper-slide">
-              <div class="col-sm-4 col-3">
-                <img src="assets/images/Layer 869.jpg" style="width: 100%;">
-              </div>
-              <div class="col-sm-8 col-9">
-                <h5>Two Cities Hackathon</h5>
-                <p>on 15th July, 11:00PM</p>
-              </div>        
-            </div>
-            <div class="swiper-slide">
-              <div class="col-sm-4 col-3">
-                <img src="assets/images/Layer 869.jpg" style="width: 100%;">
-              </div>
-              <div class="col-sm-8  col-9">
-                <h5>Two Cities Hackathon</h5>
-                <p>on 15th July, 11:00PM</p>
-              </div>        
-            </div>
-            <div class="swiper-slide">
-                <div class="col-sm-4 col-3">
-                  <img src="assets/images/Layer 869.jpg" style="width: 100%;">
-                </div>
-                <div class="col-sm-8 col-9">
-                  <h5>Two Cities Hackathon</h5>
-                  <p>on 15th July, 11:00PM</p>
-                </div>        
-              </div>
-              <div class="swiper-slide">
-                  <div class="col-sm-4 col-3">
-                    <img src="assets/images/Layer 869.jpg" style="width: 100%;">
+                  <div class="social-login">
+                    <ul>
+                      <li>
+                        <a href="">
+                          <i class="fab fa-facebook"></i> Facebook</a>
+                      </li>
+                      <li>
+                        <a href="">
+                          <i class="fab fa-google-plus-g"></i> Google+</a>
+                      </li>
+                      <li>
+                        <a href="">
+                          <i class="fab fa-github"></i> Github</a>
+                      </li>
+                    </ul>
                   </div>
-                  <div class="col-sm-8 col-9">
-                    <h5>Two Cities Hackathon</h5>
-                    <p>on 15th July, 11:00PM</p>
-                  </div>        
+
                 </div>
-                <div class="swiper-slide">
-              <div class="col-sm-4 col-3">
-                <img src="assets/images/Layer 869.jpg" style="width: 100%;">
               </div>
-              <div class="col-sm-8 col-9">
-                <h5>Two Cities Hackathon</h5>
-                <p>on 15th July, 11:00PM</p>
-              </div>        
+              <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                <div class="innter-form">
+                  <div class="innter-form">
+                    <form class="sa-innate-form" action="" autocomplete="off">
+                      <div class="field">
+                        <input type="text" name="userame" id="username" placeholder="example@incubateind.com">
+                        <label for="username">Enter your Email/Phone Number</label>
+                      </div>
+                      <div class="field">
+                        <input type="password" name="password" id="password" placeholder="Password">
+                        <label for="password">Password</label>
+                      </div>
+
+                      <p style="padding: 20px 0;">
+                        <a style="color: #5d24dd; font-weight: 600;" href="">Recover Password</a>
+                        <a href="" style="float: right; color: #5d24dd;font-weight: 600;">
+                          <span style="font-weight: 400;color:#9c9c9c;">Not Registered?</span> Signup</a>
+                      </p>
+                      <button type="submit">Get Started Today</button>
+                      <p class="text-center" style="margin-bottom: 20px;"> or </p>
+                    </form>
+                    <div class="social-login">
+                      <ul>
+                        <li>
+                          <a href="">
+                            <i class="fab fa-facebook"></i> Facebook</a>
+                        </li>
+                        <li>
+                          <a href="">
+                            <i class="fab fa-google-plus-g"></i> Google+</a>
+                        </li>
+                        <li>
+                          <a href="">
+                            <i class="fab fa-github"></i> Github</a>
+                        </li>
+                      </ul>
+                    </div>
+
+                  </div>
+                  <div class="social-login">
+                    <ul>
+                      <li>
+                        <a href="">
+                          <i class="fab fa-facebook"></i> Facebook</a>
+                      </li>
+                      <li>
+                        <a href="">
+                          <i class="fab fa-google-plus-g"></i> Google+</a>
+                      </li>
+                      <li>
+                        <a href="">
+                          <i class="fab fa-github"></i> Github</a>
+                      </li>
+                    </ul>
+                  </div>
+
+                </div>
+              </div>
+              <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+                <div class="innter-form">
+                  <div class="innter-form">
+                    <form class="sa-innate-form" action="" autocomplete="off">
+                      <div class="field">
+                        <input type="text" name="userame" id="username" placeholder="example@incubateind.com">
+                        <label for="username">Enter your Email/Phone Number</label>
+                      </div>
+                      <div class="field">
+                        <input type="password" name="password" id="password" placeholder="Password">
+                        <label for="password">Password</label>
+                      </div>
+
+                      <p style="padding: 20px 0;">
+                        <a style="color: #5d24dd; font-weight: 600;" href="">Recover Password</a>
+                        <a href="" style="float: right; color: #5d24dd;font-weight: 600;">
+                          <span style="font-weight: 400;color:#9c9c9c;">Not Registered?</span> Signup</a>
+                      </p>
+                      <button type="submit">Get Started Today</button>
+                      <p class="text-center" style="margin-bottom: 20px;"> or </p>
+                    </form>
+                    <div class="social-login">
+                      <ul>
+                        <li>
+                          <a href="">
+                            <i class="fab fa-facebook"></i> Facebook</a>
+                        </li>
+                        <li>
+                          <a href="">
+                            <i class="fab fa-google-plus-g"></i> Google+</a>
+                        </li>
+                        <li>
+                          <a href="">
+                            <i class="fab fa-github"></i> Github</a>
+                        </li>
+                      </ul>
+                    </div>
+
+                  </div>
+                  <div class="social-login">
+                    <ul>
+                      <li>
+                        <a href="">
+                          <i class="fab fa-facebook"></i> Facebook</a>
+                      </li>
+                      <li>
+                        <a href="">
+                          <i class="fab fa-google-plus-g"></i> Google+</a>
+                      </li>
+                      <li>
+                        <a href="">
+                          <i class="fab fa-github"></i> Github</a>
+                      </li>
+                    </ul>
+                  </div>
+
+                </div>
+              </div>
             </div>
           </div>
         </div>
-        <!-- Add Arrows -->
-        <div class="swiper-button-next swiper-btn-p-1 d-none d-sm-block" style="float:right; left: 45px; right: auto; background-image:url(assets/images/arrow-r.svg); background-color: #fff; border-radius: 30px; background-size: 50% 40%; outline: none;"></div>
-        <div class="swiper-button-prev swiper-btn-n-1 d-none d-sm-block" style="float:left; right: 45px; left: auto; background-image:url(assets/images/arrow-l.svg); background-color: #fff; border-radius: 30px; background-size: 50% 40%; outline: none;"></div>    
       </div>
-    </section>
+    </div>
+  </section>
 
-    <section id="features">
-      <div class="container">
-        <h1>Practice Coding. Compete. Find Jobs.</h1>
-        <div class="row row-eq-height">
-          <div class="col-sm-4">
-            <a href="#">
+
+
+  <section class="hover-arrow" id="companies-logo">
+    <div class="container">
+      <!-- Swiper -->
+      <div class="swiper-container swiper1 ">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="col-sm-4 col-3 ">
+              <img src="assets/images/Layer 910.jpg" style="width: 100%;">
+            </div>
+            <div class="col-sm-8 col-9">
+              <h5>Ideathon</h5>
+              <p>on 25th August 2018</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="col-sm-4 col-3">
+              <img src="assets/images/tw1.jpg" style="width: 100%;">
+            </div>
+            <div class="col-sm-8 col-9">
+              <h5>TweetChat with Saibal Dutta</h5>
+              <p>on 20th July, 03:00PM</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="col-sm-4 col-3">
+              <img src="assets/images/tw2.jpg" style="width: 100%;">
+            </div>
+            <div class="col-sm-8 col-9">
+              <h5>TweetChat with Sachin Jaiswal</h5>
+              <p>on 27th July, 03:00PM</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="col-sm-4 col-3">
+              <img src="assets/images/Layer 911.jpg" style="width: 100%;">
+            </div>
+            <div class="col-sm-8  col-9">
+              <h5>TechTalk on Design</h5>
+              <p>on 28th July, 11:00AM</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Add Arrows -->
+      <div class="swiper-button-next swiper-btn-p-1" style="float:right; left: 45px; right: auto; background-image:url(assets/images/arrow-r.svg); background-color: #fff; border-radius: 30px; background-size: 50% 40%; outline: none;"></div>
+      <div class="swiper-button-prev swiper-btn-n-1" style="float:left; right: 45px; left: auto; background-image:url(assets/images/arrow-l.svg); background-color: #fff; border-radius: 30px; background-size: 50% 40%; outline: none;"></div>
+
+
+    </div>
+  </section>
+
+
+  <section id="features">
+    <div class="container">
+      <h1>Practice Coding. Compete. Find Jobs.</h1>
+      <div class="row row-eq-height">
+        <div class="col-sm-4">
+          <a href="#">
             <div class="insider d-none d-xl-block d-lg-block d-md-block">
               <img src="assets/images/Vector Smart Object1.svg">
               <h2>Developers</h2>
-              <p>Engineering has Changed.<br> Have You ?<br>Participate in the most Competative chanllenges on InucbateIND Platform. </p>
-              <h3>Solve Challenges Now  <i class="fas fa-arrow-right"></i></h3>
+              <p>Engineering has Changed.
+                <br> Have You ?
+                <br>Participate in the most Competative chanllenges on InucbateIND Platform. </p>
+              <h3>Solve Challenges Now
+                <i class="fas fa-arrow-right"></i>
+              </h3>
             </div>
-            </a>
-          </div>
-          <div class="col-sm-4">
-            <a href="#">
+          </a>
+        </div>
+        <div class="col-sm-4">
+          <a href="#">
             <div class="insider d-none d-xl-block d-lg-block d-md-block">
               <img src="assets/images/Vector Smart Object2.svg" style="fill: blue;">
               <h2>Companies</h2>
-              <p>Are you hiring the best Talent ? <br> Put your Challenges on here and we will give you the best.</p>
-              <h3>Learn More   <i class="fas fa-arrow-right"> </i></h3>
+              <p>Are you hiring the best Talent ?
+                <br> Put your Challenges on here and we will give you the best.</p>
+              <h3>Learn More
+                <i class="fas fa-arrow-right"> </i>
+              </h3>
             </div>
-            </a>
-          </div>
-          <div class="col-sm-4">
-            <a href="#">
+          </a>
+        </div>
+        <div class="col-sm-4">
+          <a href="#">
             <div class="insider d-none d-xl-block d-lg-block d-md-block">
               <img src="assets/images/Vector Smart Object3.svg">
               <h2>Campus</h2>
-              <p>Compete with the best and become the leader you always wanted to. Be a part of building the largest and most engaged student coding community in the world.
-                  </p>
-              <h3>Learn More  <i class="fas fa-arrow-right"> </i></h3>
+              <p>Compete with the best and become the leader you always wanted to. Be a part of building the largest and most
+                engaged student coding community in the world.
+              </p>
+              <h3>Learn More
+                <i class="fas fa-arrow-right"> </i>
+              </h3>
             </div>
-            </a>
-          </div>
-        </div>
-      </div> 
-      <div class="row-card d-lg-none d-md-none d-xl-none">
-        <div class="card" style="margin-left: 2px;">
-            <a href="#">
-            <div class="insider ">
-              <img src="assets/images/Vector Smart Object1.svg">
-              <h2>Developers</h2>
-              <p>Engineering has Changed.<br> Have You ?<br>Participate in the most Competative chanllenges on InucbateIND Platform. </p>
-              <h3>Solve Challenges Now <i class="fas fa-arrow-right"> </i></h3>
-            </div>
-            </a>
-        </div>
-        <div class="card">
-            <a href="#">
-            <div class="insider">
-              <img src="assets/images/Vector Smart Object2.svg" style="fill: blue;">
-              <h2>Companies</h2>
-              <p>Are you hiring the best Talent ? <br> Put your Challenges on here and we will give you the best.</p>
-              <h3>Learn More <i class="fas fa-arrow-right"> </i></h3>
-            </div>
-            </a>
-        </div>
-        <div class="card" style="margin-right: 20px;">
-            <a href="#">
-            <div class="insider">
-              <img src="assets/images/Vector Smart Object3.svg">
-              <h2>Campus</h2>
-              <p>Compete with the best and become the leader you always wanted to. Be a part of building the largest and most engaged student coding community in the world.
-                  </p>
-              <h3>Learn More <i class="fas fa-arrow-right"> </i></h3>
-            </div>
-            </a>
+          </a>
         </div>
       </div>
-    </section>
-
-    <section id="company">
-      <div class="container">
-        <h1>Companies Who Trust us</h1>
-        <!-- Swiper -->
-        <div class="swiper-container swiper2">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide">
-                <img src="assets/images/Layer 874.jpg" style="width: 100%;">
-            </div>
-            <div class="swiper-slide">
-                <img src="assets/images/Layer 876.jpg" style="width: 100%;">
-            </div>
-            <div class="swiper-slide">
-                <img src="assets/images/Layer 879.jpg" style="width: 100%;">
-            </div>
-            <div class="swiper-slide">
-                <img src="assets/images/Layer 880.jpg" style="width: 100%;">
-            </div>
-            <div class="swiper-slide">
-                <img src="assets/images/Layer 881.jpg" style="width: 100%;">
-            </div>
-            <div class="swiper-slide">
-                <img src="assets/images/Layer 874.jpg" style="width: 100%;">
-            </div>
-            <div class="swiper-slide">
-                <img src="assets/images/Layer 876.jpg" style="width: 100%;">
-            </div>
-            <div class="swiper-slide">
-                <img src="assets/images/Layer 879.jpg" style="width: 100%;">
-            </div>
-            <div class="swiper-slide">
-                <img src="assets/images/Layer 880.jpg" style="width: 100%;">
-            </div>
-            <div class="swiper-slide">
-                <img src="assets/images/Layer 881.jpg" style="width: 100%;">
-            </div>
+    </div>
+    <div class="row-card d-lg-none d-md-none d-xl-none">
+      <div class="card" style="margin-left: 2px;">
+        <a href="#">
+          <div class="insider ">
+            <img src="assets/images/Vector Smart Object1.svg">
+            <h2>Developers</h2>
+            <p>Engineering has Changed.
+              <br> Have You ?
+              <br>Participate in the most Competative chanllenges on InucbateIND Platform. </p>
+            <h3>Solve Challenges Now
+              <i class="fas fa-arrow-right"> </i>
+            </h3>
           </div>
-        </div>
-        <!-- Add Arrows -->
-        <div class="swiper-next2 d-none d-sm-block" style="float:right; left: 45px; right: auto; background-image:url(assets/images/arrow-r.svg); background-color: #fff; border-radius: 30px; background-size: 50% 40%; outline: none; margin-top:-48px !important;"></div>
-        <div class="swiper-prev2 d-none d-sm-block" style="float:left; right: 45px; left: auto; background-image:url(assets/images/arrow-l.svg); background-color: #fff; border-radius: 30px; background-size: 50% 40%; outline: none; margin-top:-48px !important;"></div>    
-        <!-- Add Pagination -->
-        <div class="swiper-pagination swiper-pagination-2" style="text-align: center; margin-top: 20px; position: relative;"></div>
+        </a>
       </div>
-    </section>
-
-    <section id="event-explain">
-      <div class="container">
-        <h1>Upcoming Events</h1>
-        <div class="swiper-container swiper3 event-explain">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide">
-                <div class="col-sm-6 col-12 ">
-                  <img src="assets/images/Layer 908.jpg" style="width: 150px;">
-                  <h2>Two Cities Hachathon Schedule</h2>
-                  <p>In order to bridge the gap between problems and problem-solvers, N/Core and Omidyar Network have launched the Ideathon. The objective is to bring to the fore, use cases and problem statements faced by marginalized or economically backward communities, </p>
-                  <button class="button-hover" style="margin: 0;">Register Now</button>
-                  <a href="#"><img class="d-lg-none d-xl-none d-md-none d-sm-none d-block" src="assets/images/Layer 910.jpg" style="margin-top:20px;"></a>
-                </div>
-                <div class="col-sm-6">
-                  <a href="#"><img src="assets/images/Layer 910.jpg"></a>
-                </div>
-            </div>
-            <div class="swiper-slide">
-                <div class="col-sm-6 col-12 ">
-                  <img src="assets/images/Layer 908.jpg" style="width: 150px;">
-                  <h2>Two Cities Hachathon Schedule</h2>
-                  <p>In order to bridge the gap between problems and problem-solvers, N/Core and Omidyar Network have launched the Ideathon. The objective is to bring to the fore, use cases and problem statements faced by marginalized or economically backward communities, </p>
-                  <button class="button-hover" style="margin: 0;">Register Now</button>
-                  <a href="#"><img class="d-lg-none d-xl-none d-md-none d-sm-none d-block" src="assets/images/Layer 910.jpg" style="margin-top:20px;"></a>
-                </div>
-                <div class="col-sm-6">
-                  <a href="#"><img src="assets/images/Layer 910.jpg"></a>
-                </div>
-            </div>
-            <div class="swiper-slide">
-                <div class="col-sm-6 col-12">
-                  <img src="assets/images/Layer 908.jpg" style="width: 150px;">
-                  <h2>Two Cities Hachathon Schedule</h2>
-                  <p>In order to bridge the gap between problems and problem-solvers, N/Core and Omidyar Network have launched the Ideathon. The objective is to bring to the fore, use cases and problem statements faced by marginalized or economically backward communities, </p>
-                  <button class="button-hover" style="margin: 0;">Register Now</button>
-                  <a href="#"><img class="d-lg-none d-xl-none d-md-none d-sm-none d-block" src="assets/images/Layer 910.jpg" style="margin-top:20px;"></a>
-                </div>
-                <div class="col-sm-6">
-                  <a href="#"><img src="assets/images/Layer 910.jpg"></a>
-                </div>
-            </div>
+      <div class="card">
+        <a href="#">
+          <div class="insider">
+            <img src="assets/images/Vector Smart Object2.svg" style="fill: blue;">
+            <h2>Companies</h2>
+            <p>Are you hiring the best Talent ?
+              <br> Put your Challenges on here and we will give you the best.</p>
+            <h3>Learn More
+              <i class="fas fa-arrow-right"> </i>
+            </h3>
           </div>
-          <div class="swiper-pagination swiper-pagination-3 event-explain-pagination" style="position:relative; margin-top: 30px;"></div>
+        </a>
+      </div>
+      <div class="card" style="margin-right: 20px;">
+        <a href="#">
+          <div class="insider">
+            <img src="assets/images/Vector Smart Object3.svg">
+            <h2>Campus</h2>
+            <p>Compete with the best and become the leader you always wanted to. Be a part of building the largest and most
+              engaged student coding community in the world.
+            </p>
+            <h3>Learn More
+              <i class="fas fa-arrow-right"> </i>
+            </h3>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="hover-arrow" id="company">
+    <div class="container">
+      <h1>Companies Who Trust us</h1>
+      <!-- Swiper -->
+      <div class="swiper-container swiper2">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="assets/images/Layer 874.jpg" style="width: 100%;">
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/images/Layer 876.jpg" style="width: 100%;">
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/images/Layer 879.jpg" style="width: 100%;">
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/images/Layer 880.jpg" style="width: 100%;">
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/images/Layer 881.jpg" style="width: 100%;">
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/images/Layer 874.jpg" style="width: 100%;">
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/images/Layer 876.jpg" style="width: 100%;">
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/images/Layer 879.jpg" style="width: 100%;">
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/images/Layer 880.jpg" style="width: 100%;">
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/images/Layer 881.jpg" style="width: 100%;">
+          </div>
         </div>
       </div>
-    </section>
+      <!-- Add Arrows -->
+      <div class="swiper-next2 d-none d-sm-block" style="float:right; left: 45px; right: auto; background-image:url(assets/images/arrow-r.svg); background-color: #fff; border-radius: 30px; background-size: 50% 40%; outline: none; margin-top:-48px !important;"></div>
+      <div class="swiper-prev2 d-none d-sm-block" style="float:left; right: 45px; left: auto; background-image:url(assets/images/arrow-l.svg); background-color: #fff; border-radius: 30px; background-size: 50% 40%; outline: none; margin-top:-48px !important;"></div>
+      <!-- Add Pagination -->
+      <div class="swiper-pagination swiper-pagination-2" style="text-align: center; margin-top: 20px; position: relative;"></div>
+    </div>
+  </section>
 
-    <section id="fh">
-      <div class="container">
-        <h1>Featured Hackathon</h1>
-      </div>  
-        <div class="container">
-          <div class="row d-none d-sm-none d-md-none d-lg-flex">
-            <div class="col-sm-3 col-12">
-                <div style="background-color: #fff; border: 1px solid #ebebeb;">
-                    <a href="#"><img src="assets/images/Layer 899.jpg" class="img-top"></a>
-                  <div style="padding: 20px;">
-                      <a href="#"><img src="assets/images/Layer 900.jpg" style="height: 55px;  padding:15px 0;"></a>
-                      <p>In order to bridge the gap between problems and problem-solvers,...</p>
-                      <h4>Learn More <i class="fas fa-arrow-right"> </i></h4>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-3 col-12">
-                <div style="background-color: #fff; border: 1px solid #ebebeb;">
-                    <a href="#"><img src="assets/images/Layer 902.jpg" class="img-top"></a>
-                  <div style="padding: 20px;">
-                      <a href="#"><img src="assets/images/Layer 903.jpg" style="height: 55px;  padding:15px 0;"></a>
-                      <p>In order to bridge the gap between problems and problem-solvers,...</p>
-                      <h4>Learn More <i class="fas fa-arrow-right"> </i></h4>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-3 col-12">
-                <div style="background-color: #fff; border: 1px solid #ebebeb;">
-                    <a href="#"><img src="assets/images/Layer 904.jpg" class="img-top">
-                  <div style="padding: 20px;">
-                      <a href="#"><img src="assets/images/Layer 905.jpg" style="height: 55px;  padding:15px 0;"></a>
-                      <p>In order to bridge the gap between problems and problem-solvers,...</p>
-                      <h4>Learn More <i class="fas fa-arrow-right"> </i></h4>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-3 col-12">
-                <div style="background-color: #fff; border: 1px solid #ebebeb;">
-                    <a href="#"><img src="assets/images/Layer 906.jpg" class="img-top"></a>
-                  <div style="padding: 20px;">
-                      <a href="#"><img src="assets/images/Layer 907.jpg" style="height: 55px; padding:15px 0;"></a>
-                      <p>In order to bridge the gap between problems and problem-solvers,...</p>
-                      <h4>Learn More <i class="fas fa-arrow-right"> </i></h4>
-                  </div>
-                </div>
-              </div> 
-          </div>
-        </div>
-        <div class="row-card1 row-eq-height d-lg-none d-xl-none d-md-flex d-sm-flex d-flex ">
-          <div class="card1" style="margin-left:10px;">
-            <div class="col-sm-12 col-12">
-              <div style="background-color: #fff; border: 1px solid #ebebeb;">
-                  <a href="#"><img src="assets/images/Layer 899.jpg" class="img-top"></a>
-                <div style="padding: 20px;">
-                    <a href="#"><img src="assets/images/Layer 900.jpg" style="height: 55px;  padding:15px 0;"></a>
-                    <p>In order to bridge the gap between problems and problem-solvers,...</p>
-                    <h4>Learn More <i class="fas fa-arrow-right"> </i></h4>
-                </div>
-              </div>
+  <section id="event-explain">
+    <div class="container">
+      <h1>Upcoming Events</h1>
+      <div class="swiper-container swiper3 event-explain">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="col-sm-6 col-12 ">
+              <img src="assets/images/Layer 908.jpg" style="width: 250px; border:0px;">
+              <h2>Ideathon</h2>
+              <p>Brands today are way more open minded about solving problems in a new fashion way. With high screen time, mobile
+                has become the primary go to for all consumers targeted by advertisers. To overcome increasing brand challenges
+                in this highly competitive industry, MMA brings to you an IDEATHON to discover real brand solutions by hiring
+                as well as meeting the best & the youngest minds from Bangalore. IncubateIND provides the perfect ground
+                to network & teamwork for tech driven entrepreneurs & students. Together MMA & IncubateIND’s aim is to launch
+                a platform that would give brands innovative solutions by young techpreneurs who would in turn be fostered
+                & well-guided. </p>
+              <a href="https://incubateind.com/ideathon/" target="_blank">
+                <button class="button-hover" style="margin: 0;">Register Now</button>
+              </a>
+              <a href="https://incubateind.com/ideathon/" target="_blank">
+                <img class="d-lg-none d-xl-none d-md-none d-sm-none d-block" src="assets/images/Layer 910.jpg" style="margin-top:20px;">
+              </a>
+            </div>
+            <div class="col-sm-6">
+              <a href="#">
+                <img src="assets/images/Layer 910.jpg">
+              </a>
             </div>
           </div>
-          <div class="card1">
-            <div class="col-sm-12 col-12">
-              <div style="background-color: #fff; border: 1px solid #ebebeb;">
-                  <a href="#"><img src="assets/images/Layer 902.jpg" class="img-top"></a>
-                <div style="padding: 20px;">
-                    <a href="#"><img src="assets/images/Layer 903.jpg" style="height: 55px;  padding:15px 0;"></a>
-                    <p>In order to bridge the gap between problems and problem-solvers,...</p>
-                    <h4>Learn More <i class="fas fa-arrow-right"> </i></h4>
-                </div>
-              </div>
+          <div class="swiper-slide">
+            <div class="col-sm-6 col-12 ">
+              <h2>TweetChat with Saibal Datta, Founder, GDD</h2>
+              <p>Topic For TweetChat : AI and future of Product Design.
+                <br>
+              </p>
+              <img class="d-lg-none d-xl-none d-md-none d-sm-none d-block" src="assets/images/tw1.jpg" style="margin-top:20px;">
+            </div>
+            <div class="col-sm-6">
+              <a href="#">
+                <img src="assets/images/tw1.jpg">
+              </a>
             </div>
           </div>
-          <div class="card1">
-            <div class="col-sm-12 col-12">
-                <div style="background-color: #fff; border: 1px solid #ebebeb;">
-                    <a href="#"><img src="assets/images/Layer 904.jpg" class="img-top"></a>
-                  <div style="padding: 20px;">
-                      <a href="#"><img src="assets/images/Layer 905.jpg" style="height: 55px;  padding:15px 0;"></a>
-                      <p>In order to bridge the gap between problems and problem-solvers,...</p>
-                      <h4>Learn More <i class="fas fa-arrow-right"> </i></h4>
-                  </div>
-                </div>
+          <div class="swiper-slide">
+            <div class="col-sm-6 col-12 ">
+              <h2>TweetChat with Sachin Jaiswal, Co-founder & CEO , Niki.ai </h2>
+              <p>Topic For TweetChat : Why Chatbots Are Important For Your Business.
+                <br>
+              </p>
+              <img class="d-lg-none d-xl-none d-md-none d-sm-none d-block" src="assets/images/tw2.jpg" style="margin-top:20px;">
+            </div>
+            <div class="col-sm-6">
+              <a href="#">
+                <img src="assets/images/tw2.jpg">
+              </a>
             </div>
           </div>
-          <div class="card1">
-            <div class="col-sm-12 col-12">
-              <div style="background-color: #fff; border: 1px solid #ebebeb;">
-                  <a href="#"><img src="assets/images/Layer 906.jpg" class="img-top"></a>
-                <div style="padding: 20px;">
-                    <a href="#"><img src="assets/images/Layer 907.jpg" style="height: 55px; padding:15px 0;"></a>
-                    <p>In order to bridge the gap between problems and problem-solvers,...</p>
-                    <h4>Learn More <i class="fas fa-arrow-right"> </i></h4>
-                </div>
-              </div>
+          <div class="swiper-slide">
+            <div class="col-sm-6 col-12">
+              <h2>TechTalk Series with Nitin Sethi and Sharad Chauhan</h2>
+              <p>Topic for TechTalk Series: How Technology is Shaping the future of Design.</p>
+              <a href="https://bit.ly/incubatetalks" target="_blank">
+                <button class="button-hover" style="margin: 0;">Register Now</button>
+              </a>
+              <a href="https://bit.ly/incubatetalks" target="_blank">
+                <img class="d-lg-none d-xl-none d-md-none d-sm-none d-block" src="assets/images/Layer 911.jpg" style="margin-top:20px;">
+              </a>
+            </div>
+            <div class="col-sm-6">
+              <a href="#">
+                <img src="assets/images/Layer 911.jpg">
+              </a>
             </div>
           </div>
         </div>
-      <button class="button-hover d-none d-lg-block d-xl-block d-md-block d-sm-block" style="margin-top: 20px;" data-toggle="modal" data-target="#allEvent" >See All Event</button>
-    </section>
+        <div class="swiper-pagination swiper-pagination-3 event-explain-pagination" style="position:relative; margin-top: 30px;"></div>
+      </div>
+    </div>
+  </section>
 
-    <section id="testimonial">
-      <div class="container">
-        <h1>Testimonial</h1>
-        <ul class="nav nav-pills justify-content-center" role="tablist">
+  <section id="fh">
+    <div class="container">
+      <h1>Featured Hackathon</h1>
+    </div>
+    <div class="container">
+      <div class="row d-none d-sm-none d-md-none d-lg-flex">
+        <div class="col-sm-3 col-12">
+          <div style="background-color: #fff; border: 1px solid #ebebeb;">
+            <a href="#">
+              <img src="assets/images/Layer 902.jpg" class="img-top">
+            </a>
+            <div style="padding: 20px;">
+              <a href="#">
+                <img src="assets/images/Layer 903.jpg" style="height: 55px;  padding:15px 0;">
+              </a>
+              <p>The Vistara Hackathon brings India's Largest Aviation Hackatho..</p>
+              <a href="https://incubateind.com/vistara/" target="_blank">
+                <h4>Learn More
+                  <i class="fas fa-arrow-right"> </i>
+                </h4>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3 col-12">
+          <div style="background-color: #fff; border: 1px solid #ebebeb;">
+            <a href="#">
+              <img src="assets/images/Layer 906.jpg" class="img-top">
+            </a>
+            <div style="padding: 20px;">
+              <a href="#">
+                <img src="assets/images/Layer 907.jpg" style="height: 55px;  padding:15px 0;">
+              </a>
+              <p>Dish-a-thon is India's first and largest Media and Entertai...</p>
+              <a href="https://incubateind.com/dishathon/" target="_blank">
+                <h4>Learn More
+                  <i class="fas fa-arrow-right"> </i>
+                </h4>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3 col-12">
+          <div style="background-color: #fff; border: 1px solid #ebebeb;">
+            <a href="#">
+              <img src="assets/images/Layer 904.jpg" class="img-top">
+              <div style="padding: 20px;">
+                <a href="#">
+                  <img src="assets/images/Layer 905.jpg" style="height: 55px;  padding:15px 0;">
+                </a>
+                <p>The aim is to discover insights and develop new solutions...</p>
+                <a href="https://www.incubateind.com/ev-hackathon/" target="_blank">
+                  <h4>Learn More
+                    <i class="fas fa-arrow-right"> </i>
+                  </h4>
+                </a>
+              </div>
+          </div>
+        </div>
+        <div class="col-sm-3 col-12">
+          <div style="background-color: #fff; border: 1px solid #ebebeb;">
+            <a href="#">
+              <img src="assets/images/Layer 899.jpg" class="img-top">
+            </a>
+            <div style="padding: 20px;">
+              <a href="#">
+                <img src="assets/images/Layer 900.jpg" style="height: 55px; padding:15px 0;">
+              </a>
+              <p>The Best Of Block Inc invites coders and blockchain enthu...</p>
+              <a href="https://www.incubateind.com/blockchain/" target="_blank">
+                <h4>Learn More
+                  <i class="fas fa-arrow-right"> </i>
+                </h4>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row-card1 row-eq-height d-lg-none d-xl-none d-md-flex d-sm-flex d-flex ">
+      <div class="card1" style="margin-left:10px;">
+        <div class="col-sm-12 col-12">
+          <div style="background-color: #fff; border: 1px solid #ebebeb;">
+            <a href="#">
+              <img src="assets/images/Layer 902.jpg" class="img-top">
+            </a>
+            <div style="padding: 20px;">
+              <a href="#">
+                <img src="assets/images/Layer 903.jpg" style="height: 55px;  padding:15px 0;">
+              </a>
+              <p>The Vistara Hackathon brings India's Largest Aviation Hackatho..</p>
+              <a href="https://incubateind.com/vistara/" target="_blank">
+                <h4>Learn More
+                  <i class="fas fa-arrow-right"> </i>
+                </h4>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card1">
+        <div class="col-sm-12 col-12">
+          <div style="background-color: #fff; border: 1px solid #ebebeb;">
+            <a href="#">
+              <img src="assets/images/Layer 906.jpg" class="img-top">
+            </a>
+            <div style="padding: 20px;">
+              <a href="#">
+                <img src="assets/images/Layer 907.jpg" style="height: 55px;  padding:15px 0;">
+              </a>
+              <p>Dish-a-thon is India's first and largest Media and Entertai...</p>
+              <a href="https://incubateind.com/dishathon/" target="_blank">
+                <h4>Learn More
+                  <i class="fas fa-arrow-right"> </i>
+                </h4>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card1">
+        <div class="col-sm-12 col-12">
+          <div style="background-color: #fff; border: 1px solid #ebebeb;">
+            <a href="#">
+              <img src="assets/images/Layer 904.jpg" class="img-top">
+            </a>
+            <div style="padding: 20px;">
+              <a href="#">
+                <img src="assets/images/Layer 905.jpg" style="height: 55px;  padding:15px 0;">
+              </a>
+              <p>The aim is to discover insights and develop new solutions...</p>
+              <a href="https://www.incubateind.com/ev-hackathon/" target="_blank">
+                <h4>Learn More
+                  <i class="fas fa-arrow-right"> </i>
+                </h4>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card1">
+        <div class="col-sm-12 col-12">
+          <div style="background-color: #fff; border: 1px solid #ebebeb;">
+            <a href="#">
+              <img src="assets/images/Layer 899.jpg" class="img-top">
+            </a>
+            <div style="padding: 20px;">
+              <a href="#">
+                <img src="assets/images/Layer 900.jpg" style="height: 55px; padding:15px 0;">
+              </a>
+              <p>The Best Of Block Inc invites coders and blockchain enthu...</p>
+              <a href="https://www.incubateind.com/blockchain/" target="_blank">
+                <h4>Learn More
+                  <i class="fas fa-arrow-right"> </i>
+                </h4>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- <button class="button-hover d-none d-lg-block d-xl-block d-md-block d-sm-block" style="margin-top: 20px;" data-toggle="modal" data-target="#allEvent" >See All Event</button> -->
+  </section>
+
+  <section id="testimonial">
+    <div class="container">
+      <h1>Testimonial</h1>
+      <!-- <ul class="nav nav-pills justify-content-center" role="tablist">
             <li class="nav-item">
               <a class="nav-link active" data-toggle="pill" href="#home" style="border-radius: 30px 0 0 30px;">Developers</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" data-toggle="pill" href="#menu1" style="border-radius: 0 30px 30px 0;">Businesses</a>
             </li>
-          </ul>
-        
-          <!-- Tab panes -->
-          <div class="tab-content">
-            <div id="home" class="container tab-pane active"><br>
-              <!-- Swiper -->
-              <div class="swiper-container swiper4">
-                <div class="swiper-wrapper">
-                  <div class="swiper-slide">
-                    <div class="outer-hub">
-                      <div class="image-hub">
-                        <img src="assets/images/Layer 889.jpg">
-                      </div>
-                      <div class="side-hub">
-                        <h2>Khelarka Kantop</h2>
-                        <p>Winner of Jivox Hackathon</p>
-                      </div>
-                    </div>
-                    <div class="bottom-hub">
-                      <p>"I would like to thank the incubateind for putting up such an awesome event. Events like this hackathon are an opportunity to showcase my coding skills, creativeness and working with team. I am totally thrilled to be a winner and working for Ixigo"</p>
-                    </div>
+          </ul> -->
+
+      <!-- Tab panes -->
+      <div class="tab-content">
+        <div id="home" class="container tab-pane active">
+          <br>
+          <!-- Swiper -->
+          <div class="swiper-container swiper4">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="outer-hub">
+                  <div class="image-hub">
+                    <img src="assets/images/Layer 889.jpg">
                   </div>
-                  <div class="swiper-slide">
-                    <div class="outer-hub">
-                      <div class="image-hub">
-                        <img src="assets/images/Layer 890.jpg">
-                      </div>
-                      <div class="side-hub">
-                        <h2>Karan Kapoor</h2>
-                        <p>Winner of Vistara Hackathon</p>
-                      </div>
-                    </div>
-                    <div class="bottom-hub">
-                      <p>"I would like to thank the incubateind for putting up such an awesome event. Events like this hackathon are an opportunity to showcase my coding skills, creativeness and working with team. I am totally thrilled to be a winner and working for Ixigo"</p>
-                    </div>
-                  </div>
-                  <div class="swiper-slide">
-                    <div class="outer-hub">
-                      <div class="image-hub">
-                        <img src="assets/images/Layer 891.jpg">
-                      </div>
-                      <div class="side-hub">
-                        <h2>Juhi Sharma</h2>
-                        <p>Winner of Indigo</p>
-                      </div>
-                    </div>
-                    <div class="bottom-hub">
-                      <p>"I would like to thank the incubateind for putting up such an awesome event. Events like this hackathon are an opportunity to showcase my coding skills, creativeness and working with team. I am totally thrilled to be a winner and working for Ixigo"</p>
-                    </div>
-                  </div>
-                  <div class="swiper-slide">
-                    <div class="outer-hub">
-                      <div class="image-hub">
-                        <img src="assets/images/Layer 889.jpg">
-                      </div>
-                      <div class="side-hub">
-                        <h2>Haimal Khetan</h2>
-                        <p>Winner of Jivox Hackathon</p>
-                      </div>
-                    </div>
-                    <div class="bottom-hub">
-                      <p>"I would like to thank the incubateind for putting up such an awesome event. Events like this hackathon are an opportunity to showcase my coding skills, creativeness and working with team. I am totally thrilled to be a winner and working for Ixigo"</p>
-                    </div>
-                  </div>
-                  <div class="swiper-slide">
-                    <div class="outer-hub">
-                      <div class="image-hub">
-                        <img src="assets/images/Layer 890.jpg">
-                      </div>
-                      <div class="side-hub">
-                        <h2>Karan Kapoor</h2>
-                        <p>Winner of Vistara Hackathon</p>
-                      </div>
-                    </div>
-                    <div class="bottom-hub">
-                      <p>"I would like to thank the incubateind for putting up such an awesome event. Events like this hackathon are an opportunity to showcase my coding skills, creativeness and working with team. I am totally thrilled to be a winner and working for Ixigo"</p>
-                    </div>
-                  </div>
-                  <div class="swiper-slide">
-                    <div class="outer-hub">
-                      <div class="image-hub">
-                        <img src="assets/images/Layer 891.jpg">
-                      </div>
-                      <div class="side-hub">
-                        <h2>Juhi Sharma</h2>
-                        <p>Winner of Indigo</p>
-                      </div>
-                    </div>
-                    <div class="bottom-hub">
-                      <p>"I would like to thank the incubateind for putting up such an awesome event. Events like this hackathon are an opportunity to showcase my coding skills, creativeness and working with team. I am totally thrilled to be a winner and working for Ixigo"</p>
-                    </div>
+                  <div class="side-hub">
+                    <h2>Digvijay</h2>
+                    <!-- <p>Winner of Jivox Hackathon</p> -->
                   </div>
                 </div>
-                <!-- Add Pagination -->
-                <div class="swiper-pagination-4" style="text-align: center; margin-top:20px;"></div>
+                <div class="bottom-hub">
+                  <p>"I have attended every single hackathon that IncubateIND has organized since their inception. The themes
+                    are so unique and the mentors are so knowledgeble that each time I attend their hackathon its a great
+                    learning experience. Among all the hackathons that I have attended over the last 3 years the IncubateIND
+                    30 hour hackathon series are the best and thats why attending their hacks is on top of my priority list,
+                    be it in Delhi, Jaipur, Bangalore or any city for that matter."</p>
+                </div>
               </div>
-              <!--SWIPER ENDS-->
-            </div>
-            <div id="menu1" class="container tab-pane"><br>
-              <!-- Swiper -->
-              <div class="swiper-container swiper5">
-                  <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                      <div class="outer-hub">
-                        <div class="image-hub">
-                          <img src="assets/images/Layer 889.jpg">
-                        </div>
-                        <div class="side-hub">
-                          <h2>Khelarka Kantop</h2>
-                          <p>Winner of Jivox Hackathon</p>
-                        </div>
-                      </div>
-                      <div class="bottom-hub">
-                        <p>"I would like to thank the incubateind for putting up such an awesome event. Events like this hackathon are an opportunity to showcase my coding skills, creativeness and working with team. I am totally thrilled to be a winner and working for Ixigo"</p>
-                      </div>
-                    </div>
-                    <div class="swiper-slide">
-                      <div class="outer-hub">
-                        <div class="image-hub">
-                          <img src="assets/images/Layer 890.jpg">
-                        </div>
-                        <div class="side-hub">
-                          <h2>Karan Kapoor</h2>
-                          <p>Winner of Vistara Hackathon</p>
-                        </div>
-                      </div>
-                      <div class="bottom-hub">
-                        <p>"I would like to thank the incubateind for putting up such an awesome event. Events like this hackathon are an opportunity to showcase my coding skills, creativeness and working with team. I am totally thrilled to be a winner and working for Ixigo"</p>
-                      </div>
-                    </div>
-                    <div class="swiper-slide">
-                      <div class="outer-hub">
-                        <div class="image-hub">
-                          <img src="assets/images/Layer 891.jpg">
-                        </div>
-                        <div class="side-hub">
-                          <h2>Juhi Sharma</h2>
-                          <p>Winner of Indigo</p>
-                        </div>
-                      </div>
-                      <div class="bottom-hub">
-                        <p>"I would like to thank the incubateind for putting up such an awesome event. Events like this hackathon are an opportunity to showcase my coding skills, creativeness and working with team. I am totally thrilled to be a winner and working for Ixigo"</p>
-                      </div>
-                    </div>
-                    <div class="swiper-slide">
-                      <div class="outer-hub">
-                        <div class="image-hub">
-                          <img src="assets/images/Layer 889.jpg">
-                        </div>
-                        <div class="side-hub">
-                          <h2>Haimal Khetan</h2>
-                          <p>Winner of Jivox Hackathon</p>
-                        </div>
-                      </div>
-                      <div class="bottom-hub">
-                        <p>"I would like to thank the incubateind for putting up such an awesome event. Events like this hackathon are an opportunity to showcase my coding skills, creativeness and working with team. I am totally thrilled to be a winner and working for Ixigo"</p>
-                      </div>
-                    </div>
-                    <div class="swiper-slide">
-                      <div class="outer-hub">
-                        <div class="image-hub">
-                          <img src="assets/images/Layer 890.jpg">
-                        </div>
-                        <div class="side-hub">
-                          <h2>Karan Kapoor</h2>
-                          <p>Winner of Vistara Hackathon</p>
-                        </div>
-                      </div>
-                      <div class="bottom-hub">
-                        <p>"I would like to thank the incubateind for putting up such an awesome event. Events like this hackathon are an opportunity to showcase my coding skills, creativeness and working with team. I am totally thrilled to be a winner and working for Ixigo"</p>
-                      </div>
-                    </div>
-                    <div class="swiper-slide">
-                      <div class="outer-hub">
-                        <div class="image-hub">
-                          <img src="assets/images/Layer 891.jpg">
-                        </div>
-                        <div class="side-hub">
-                          <h2>Juhi Sharma</h2>
-                          <p>Winner of Indigo</p>
-                        </div>
-                      </div>
-                      <div class="bottom-hub">
-                        <p>"I would like to thank the incubateind for putting up such an awesome event. Events like this hackathon are an opportunity to showcase my coding skills, creativeness and working with team. I am totally thrilled to be a winner and working for Ixigo"</p>
-                      </div>
-                    </div>
+              <div class="swiper-slide">
+                <div class="outer-hub">
+                  <div class="image-hub">
+                    <img src="assets/images/Layer 890.jpg">
                   </div>
-                  <!-- Add Pagination -->
-                  <div class="swiper-pagination-5" style="text-align: center; margin-top:20px;"></div>
+                  <div class="side-hub">
+                    <h2>Siddharth Singh</h2>
+                    <p>- Team Git_Init</p>
+                  </div>
+                </div>
+                <div class="bottom-hub">
+                  <p>"Hackathons are always a great learning experience as it allows you and your team to push your limits and
+                    to prove your capabilities. Dishathon 2018 provided us with such an opportunity. The chance to create
+                    something which could help people in the real world motivated us and it was also wonderful to meet other
+                    talented people working on their wonderful ideas.Besides, we were really happy with incubateInd for the
+                    wonderful organization of the event, it was flawless!"</p>
+                </div>
               </div>
-              <!--SWIPER ENDS-->
+              <div class="swiper-slide">
+                <div class="outer-hub">
+                  <div class="image-hub">
+                    <img src="assets/images/Layer 891.jpg">
+                  </div>
+                  <div class="side-hub">
+                    <h2>Chidroop Iyyhapan</h2>
+                    <!-- <p>Winner of Indigo</p> -->
+                  </div>
+                </div>
+                <div class="bottom-hub">
+                  <p>"I have been associated with both the Vistara and Dish-Tv hackathons which were conducted by INCUBATE-IND.They
+                    were the most professionally conducted hacks. They seem to know the magic sauce to make people feel at
+                    place and get them in the hacking paradigm with little to no effort. Can't wait for the next one."</p>
+                </div>
+              </div>
             </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination-4" style="text-align: center; margin-top:20px;"></div>
           </div>
-        
+          <!--SWIPER ENDS-->
+        </div>
+        <div id="menu1" class="container tab-pane">
+          <br>
+          <!-- Swiper -->
+          <div class="swiper-container swiper5">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="outer-hub">
+                  <div class="image-hub">
+                    <img src="assets/images/Layer 889.jpg">
+                  </div>
+                  <div class="side-hub">
+                    <h2>Khelarka Kantop</h2>
+                    <p>Winner of Jivox Hackathon</p>
+                  </div>
+                </div>
+                <div class="bottom-hub">
+                  <p>"I would like to thank the incubateind for putting up such an awesome event. Events like this hackathon
+                    are an opportunity to showcase my coding skills, creativeness and working with team. I am totally thrilled
+                    to be a winner and working for Ixigo"</p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="outer-hub">
+                  <div class="image-hub">
+                    <img src="assets/images/Layer 890.jpg">
+                  </div>
+                  <div class="side-hub">
+                    <h2>Karan Kapoor</h2>
+                    <p>Winner of Vistara Hackathon</p>
+                  </div>
+                </div>
+                <div class="bottom-hub">
+                  <p>"I would like to thank the incubateind for putting up such an awesome event. Events like this hackathon
+                    are an opportunity to showcase my coding skills, creativeness and working with team. I am totally thrilled
+                    to be a winner and working for Ixigo"</p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="outer-hub">
+                  <div class="image-hub">
+                    <img src="assets/images/Layer 891.jpg">
+                  </div>
+                  <div class="side-hub">
+                    <h2>Juhi Sharma</h2>
+                    <p>Winner of Indigo</p>
+                  </div>
+                </div>
+                <div class="bottom-hub">
+                  <p>"I would like to thank the incubateind for putting up such an awesome event. Events like this hackathon
+                    are an opportunity to showcase my coding skills, creativeness and working with team. I am totally thrilled
+                    to be a winner and working for Ixigo"</p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="outer-hub">
+                  <div class="image-hub">
+                    <img src="assets/images/Layer 889.jpg">
+                  </div>
+                  <div class="side-hub">
+                    <h2>Haimal Khetan</h2>
+                    <p>Winner of Jivox Hackathon</p>
+                  </div>
+                </div>
+                <div class="bottom-hub">
+                  <p>"I would like to thank the incubateind for putting up such an awesome event. Events like this hackathon
+                    are an opportunity to showcase my coding skills, creativeness and working with team. I am totally thrilled
+                    to be a winner and working for Ixigo"</p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="outer-hub">
+                  <div class="image-hub">
+                    <img src="assets/images/Layer 890.jpg">
+                  </div>
+                  <div class="side-hub">
+                    <h2>Karan Kapoor</h2>
+                    <p>Winner of Vistara Hackathon</p>
+                  </div>
+                </div>
+                <div class="bottom-hub">
+                  <p>"I would like to thank the incubateind for putting up such an awesome event. Events like this hackathon
+                    are an opportunity to showcase my coding skills, creativeness and working with team. I am totally thrilled
+                    to be a winner and working for Ixigo"</p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="outer-hub">
+                  <div class="image-hub">
+                    <img src="assets/images/Layer 891.jpg">
+                  </div>
+                  <div class="side-hub">
+                    <h2>Juhi Sharma</h2>
+                    <p>Winner of Indigo</p>
+                  </div>
+                </div>
+                <div class="bottom-hub">
+                  <p>"I would like to thank the incubateind for putting up such an awesome event. Events like this hackathon
+                    are an opportunity to showcase my coding skills, creativeness and working with team. I am totally thrilled
+                    to be a winner and working for Ixigo"</p>
+                </div>
+              </div>
+            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination-5" style="text-align: center; margin-top:20px;"></div>
+          </div>
+          <!--SWIPER ENDS-->
+        </div>
       </div>
-    </section>
+
+    </div>
+  </section>
 
   <section id="getstarted">
     <div class="container">
       <h1>Start getting noticed for the skills you have!</h1>
       <div class="outer-form">
         <div class="inner-form">
-          <input class="d-none d-xl-block d-lg-block d-md-block d-sm-block" type="text" name="Full Name" placeholder="Full Name" style="border-radius: 5px 0px 0px 5px;">
-          <input class="d-none d-xl-block d-lg-block d-md-block d-sm-block" type="text" name="EmailID" placeholder="Email Id">
-          <input class="d-none d-xl-block d-lg-block d-md-block d-sm-block" type="number" name="Mobile Number" placeholder="Mobile Number" style="border-radius: 0px 5px 5px 0px;">
+          <input type="text" name="Full Name" placeholder="Full Name" style="border-radius: 5px 0px 0px 5px;">
+          <input type="text" name="EmailID" placeholder="Email Id">
+          <input type="number" name="Mobile Number" placeholder="Mobile Number" style="border-radius: 0px 5px 5px 0px;">
           <button type="submit" class="get-started-btn">Get Started Today</button>
         </div>
-        <p class="d-xl-block d-lg-block d-md-block d-sm-block d-none">By creating account with IncubateIND, I agree to <u>Terms of Services</u></p>
+        <p class="d-xl-block d-lg-block d-md-block d-sm-block d-none">By creating account with IncubateIND, I agree to
+          <u>Terms of Services</u>
+        </p>
       </div>
     </div>
   </section>
-  
+
 
   <section id="team">
     <div class="container">
@@ -831,84 +1073,95 @@
       <div>
         <!-- Swiper -->
         <div class="swiper-container swiper6">
-            <div class="swiper-wrapper">
-              <div class="swiper-slide">
-                <div class="info-link">
-                    <i class="fab fa-linkedin"></i>
-                </div>    
-                <div class="info-outer">
-                  <img src="assets/images/Layer 916.jpg">
-                  <h2>Nitin Sethi</h2>
-                  <h3>VP Product Design & User Experience at Quikrt</h3>
-                  <p>Nitin has 18 years of work experience in Digital Transformation, Product Design & User Experience. Currently, he is leading Digital Transformation for Indigo Airlines at Gurgoan, India. He specializes in leading multi-functional teams and establishing best user experience practices and processes in the organizations.</p>
-                </div>
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="info-link">
+                <i class="fab fa-linkedin"></i>
               </div>
-              <div class="swiper-slide">
-                <div class="info-link">
-                    <i class="fab fa-linkedin"></i>
-                </div>    
-                <div class="info-outer">
-                  <img src="assets/images/Layer 922.jpg">
-                  <h2>Bhaskar Bhatt
-                    </h2>
-                  <h3>Managing Director, Titan Company Ltd</h3>
-                  <p>Nitin has 18 years of work experience in Digital Transformation, Product Design &amp; User Experience. Currently, he is leading Digital Transformation for Indigo Airlines at Gurgoan, India. He specializes in leading multi-functional teams and establishing best user experience practices and processes in the organizations.</p>
-                </div>
-              </div>
-              <div class="swiper-slide">
-                <div class="info-link">
-                    <i class="fab fa-linkedin"></i>
-                </div>    
-                <div class="info-outer">
-                  <img src="assets/images/Layer 923.jpg">
-                  <h2>Som Mittal</h2>
-                  <h3>Former President and Chairman NASSCOM</h3>
-                  <p>Nitin has 18 years of work experience in Digital Transformation, Product Design &amp; User Experience. Currently, he is leading Digital Transformation for Indigo Airlines at Gurgoan, India. He specializes in leading multi-functional teams and establishing best user experience practices and processes in the organizations.</p>
-                </div>
-              </div>
-              <div class="swiper-slide">
-                <div class="info-link">
-                    <i class="fab fa-linkedin"></i>
-                </div>    
-                <div class="info-outer">
-                  <img src="assets/images/Layer 916.jpg">
-                  <h2>Nitin Sethi</h2>
-                  <h3>VP Product Design & User Experience at Quikrt</h3>
-                  <p>Nitin has 18 years of work experience in Digital Transformation, Product Design & User Experience. Currently, he is leading Digital Transformation for Indigo Airlines at Gurgoan, India. He specializes in leading multi-functional teams and establishing best user experience practices and processes in the organizations.</p>
-                </div>
-              </div>
-              <div class="swiper-slide">
-                <div class="info-link">
-                    <i class="fab fa-linkedin"></i>
-                </div>    
-                <div class="info-outer">
-                  <img src="assets/images/Layer 922.jpg">
-                  <h2>Bhaskar Bhatt
-                    </h2>
-                  <h3>Managing Director, Titan Company Ltd</h3>
-                  <p>Nitin has 18 years of work experience in Digital Transformation, Product Design &amp; User Experience. Currently, he is leading Digital Transformation for Indigo Airlines at Gurgoan, India. He specializes in leading multi-functional teams and establishing best user experience practices and processes in the organizations.</p>
-                </div>
-              </div>
-              <div class="swiper-slide">
-                <div class="info-link">
-                    <i class="fab fa-linkedin"></i>
-                </div>    
-                <div class="info-outer">
-                  <img src="assets/images/Layer 923.jpg">
-                  <h2>Som Mittal</h2>
-                  <h3>Former President and Chairman NASSCOM</h3>
-                  <p>Nitin has 18 years of work experience in Digital Transformation, Product Design &amp; User Experience. Currently, he is leading Digital Transformation for Indigo Airlines at Gurgoan, India. He specializes in leading multi-functional teams and establishing best user experience practices and processes in the organizations.</p>
-                </div>
+              <div class="info-outer">
+                <img src="assets/images/Layer 916.jpg">
+                <h2>Samkit Sharma</h2>
+                <h3>Co-Founder, IncubateIND</h3>
+                <p>Samkit is a Technology lover and Start-Up enthusiast. He aims to provide innovative and sustainable tech
+                  solutions to complex problems. He co-founded IncubateIND with the same vision. Mostly busy in fighting
+                  technological problems.</p>
               </div>
             </div>
-            <!-- Add Pagination -->
-            <div class="swiper-pagination-6" style="text-align: center; margin-top: 20px;"></div>
+            <div class="swiper-slide">
+              <div class="info-link">
+                <i class="fab fa-linkedin"></i>
+              </div>
+              <div class="info-outer">
+                <img src="assets/images/Layer 922.jpg">
+                <h2>Punit Jain</h2>
+                <h3>Co-Founder, IncubateIND</h3>
+                <p>Nitin has 18 years of work experience in Digital Transformation, Product Design &amp; User Experience. Currently,
+                  he is leading Digital Transformation for Indigo Airlines at Gurgoan, India. He specializes in leading multi-functional
+                  teams and establishing best user experience practices and processes in the organizations.</p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="info-link">
+                <i class="fab fa-linkedin"></i>
+              </div>
+              <div class="info-outer">
+                <img src="assets/images/Layer 923.jpg">
+                <h2>Som Mittal</h2>
+                <h3>Former President and Chairman NASSCOM</h3>
+                <p>Nitin has 18 years of work experience in Digital Transformation, Product Design &amp; User Experience. Currently,
+                  he is leading Digital Transformation for Indigo Airlines at Gurgoan, India. He specializes in leading multi-functional
+                  teams and establishing best user experience practices and processes in the organizations.</p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="info-link">
+                <i class="fab fa-linkedin"></i>
+              </div>
+              <div class="info-outer">
+                <img src="assets/images/Layer 916.jpg">
+                <h2>Nitin Sethi</h2>
+                <h3>VP Product Design & User Experience at Quikrt</h3>
+                <p>Nitin has 18 years of work experience in Digital Transformation, Product Design & User Experience. Currently,
+                  he is leading Digital Transformation for Indigo Airlines at Gurgoan, India. He specializes in leading multi-functional
+                  teams and establishing best user experience practices and processes in the organizations.</p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="info-link">
+                <i class="fab fa-linkedin"></i>
+              </div>
+              <div class="info-outer">
+                <img src="assets/images/Layer 922.jpg">
+                <h2>Bhaskar Bhatt
+                </h2>
+                <h3>Managing Director, Titan Company Ltd</h3>
+                <p>Nitin has 18 years of work experience in Digital Transformation, Product Design &amp; User Experience. Currently,
+                  he is leading Digital Transformation for Indigo Airlines at Gurgoan, India. He specializes in leading multi-functional
+                  teams and establishing best user experience practices and processes in the organizations.</p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="info-link">
+                <i class="fab fa-linkedin"></i>
+              </div>
+              <div class="info-outer">
+                <img src="assets/images/Layer 923.jpg">
+                <h2>Som Mittal</h2>
+                <h3>Former President and Chairman NASSCOM</h3>
+                <p>Nitin has 18 years of work experience in Digital Transformation, Product Design &amp; User Experience. Currently,
+                  he is leading Digital Transformation for Indigo Airlines at Gurgoan, India. He specializes in leading multi-functional
+                  teams and establishing best user experience practices and processes in the organizations.</p>
+              </div>
+            </div>
           </div>
+          <!-- Add Pagination -->
+          <div class="swiper-pagination-6" style="text-align: center; margin-top: 20px;"></div>
+        </div>
       </div>
     </div>
   </section>
-  
-  
+
+
   <footer>
     <div class="container d-none d-xl-block d-lg-block d-md-block d-sm-block">
       <div class="row">
@@ -916,91 +1169,95 @@
           <img src="assets/images/Layer 914.png" style="margin-bottom: 65px;">
           <p style="margin-bottom: 4px; font-size: 12px;">Keep in Touch</p>
           <div class="social-links">
-            <a href="#"><img src="assets/images/linkedin.svg" style="width: 30px; display: inline; padding: 0 2px;"></a>
-            <a href="#"><img src="assets/images/facebook.svg" style="width: 30px; display: inline; padding: 0 2px;"></a>
-            <a href="#"><img src="assets/images/youtube.svg" style="width: 30px; display: inline; padding: 0 2px;"></a>
-            <a href="#"><img src="assets/images/twitter.svg" style="width: 30px; display: inline; padding: 0 2px;"></a>
-            <a href="#"><img src="assets/images/instagram.svg" style="width: 30px; display: inline; padding: 0 2px;"></a>
+            <a href="#">
+              <img src="assets/images/linkedin.svg" style="width: 30px; display: inline; padding: 0 2px;">
+            </a>
+            <a href="#">
+              <img src="assets/images/facebook.svg" style="width: 30px; display: inline; padding: 0 2px;">
+            </a>
+            <a href="#">
+              <img src="assets/images/youtube.svg" style="width: 30px; display: inline; padding: 0 2px;">
+            </a>
+            <a href="#">
+              <img src="assets/images/twitter.svg" style="width: 30px; display: inline; padding: 0 2px;">
+            </a>
+            <a href="#">
+              <img src="assets/images/instagram.svg" style="width: 30px; display: inline; padding: 0 2px;">
+            </a>
           </div>
         </div>
         <div class="col-sm-2">
-            <ul type="none" class="footer-list">  
-              <li class="list-head">COMPNAY</li>  
-              <li>About Us</li>  
-              <li>Careers</li>  
-              <li>Blog</li>  
-              <li>Privacy Policy</li>  
-              <li>Contact Us</li>  
-            </ul>  
+          <ul type="none" class="footer-list">
+            <li class="list-head">COMPNAY</li>
+            <li>About Us</li>
+            <li>Careers</li>
+            <li>Blog</li>
+            <li>Privacy Policy</li>
+            <li>Contact Us</li>
+          </ul>
         </div>
         <div class="col-sm-2">
-            <ul type="none" class="footer-list">  
-              <li class="list-head">DEVELOPERS</li>  
-              <li>Scoring</li>  
-              <li>Envirnoment</li>  
-              <li>FAQ</li>  
-              <li>Fr Schools</li>  
-              <li>Sign Up</li>  
-            </ul>  
+          <ul type="none" class="footer-list">
+            <li class="list-head">DEVELOPERS</li>
+            <li>Scoring</li>
+            <li>Envirnoment</li>
+            <li>FAQ</li>
+            <li>Fr Schools</li>
+            <li>Sign Up</li>
+          </ul>
         </div>
         <div class="col-sm-2">
-          <ul type="none" class="footer-list">  
-            <li class="list-head">CAMPANIES</li>  
-            <li>Solution</li>  
-            <li>Customers</li>  
-            <li>Pricing</li>  
-            <li>Fry for free</li>  
-            <li>Terms of Service</li>  
-          </ul>  
+          <ul type="none" class="footer-list">
+            <li class="list-head">CAMPANIES</li>
+            <li>Solution</li>
+            <li>Customers</li>
+            <li>Pricing</li>
+            <li>Fry for free</li>
+            <li>Terms of Service</li>
+          </ul>
         </div>
         <div class="col-sm-2">
-            <ul type="none" class="footer-list">  
-              <li class="list-head">RESOURSES</li>  
-              <li>API</li>  
-              <li>Guides</li>  
-              <li>Partners</li>  
-              <li>Events</li>  
-              <li>News</li>  
-            </ul>  
-          </div>
+          <ul type="none" class="footer-list">
+            <li class="list-head">RESOURSES</li>
+            <li>API</li>
+            <li>Guides</li>
+            <li>Partners</li>
+            <li>Events</li>
+            <li>News</li>
+          </ul>
+        </div>
       </div>
     </div>
     <div class="container copyright">
       <p>Copyright@ 2018 IncubateIND.com. All Rights Reserved.</p>
     </div>
   </footer>
-  
-  
-    
 
-      
 
   
-    <!-- Jquery Script -->
-    <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-
-    <!-- sliderTabs.js -->
-    
-
-    <!-- Bootstrap Scripts -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
-
-    <!-- Swiper Scripts -->
-    <script src="assets/js/swiper.min.js"></script>
 
 
-    <script>
-    // var slider = $("div#mySliderTabs").sliderTabs({ 
-    //   position: "top",
-    //   mousewheel: "false",
-    //   tabHeight: "5"
-    // });
-    </script>
-    <script>
-      var swiper1 = new Swiper('.swiper1', {
+
+
+
+
+
+  <!-- Jquery Script -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+
+  <!-- Bootstrap Scripts -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+    crossorigin="anonymous"></script>
+
+  <!-- Swiper Scripts -->
+  <script src="assets/js/swiper.min.js"></script>
+
+
+  <script>
+    var swiper1 = new Swiper('.swiper1', {
       slidesPerView: 4,
       spaceBetween: 20,
       loop: true,
@@ -1031,93 +1288,93 @@
         }
       }
     });
-    </script>
-    <script>
+  </script>
+  <script>
     var swiper2 = new Swiper('.swiper2', {
-        slidesPerView: 5,
-        spaceBetween: 15,
-        // loop: true,
-        autoplay: {
-          delay: 2500,
-          disableOnInteraction: true,
+      slidesPerView: 5,
+      spaceBetween: 15,
+      // loop: true,
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: true,
+      },
+      grabCursor: true,
+      simulateTouch: true,
+      navigation: {
+        nextEl: '.swiper-next2',
+        prevEl: '.swiper-prev2',
+      },
+      pagination: {
+        el: '.swiper-pagination-2',
+        clickable: 'True',
+      },
+      breakpoints: {
+        1024: {
+          slidesPerView: 5,
+          spaceBetween: 15,
         },
-        grabCursor: true,
-        simulateTouch: true,
-        navigation: {
-          nextEl: '.swiper-next2',
-          prevEl: '.swiper-prev2',
+        768: {
+          slidesPerView: 3,
+          spaceBetween: 15,
         },
-        pagination: {
-          el: '.swiper-pagination-2',
-          clickable: 'True',
+        640: {
+          slidesPerView: 2,
+          spaceBetween: 15,
         },
-        breakpoints: {
-          1024: {
-            slidesPerView: 5,
-            spaceBetween: 15,
-          },
-          768: {
-            slidesPerView: 3,
-            spaceBetween: 15,
-          },
-          640: {
-            slidesPerView: 2,
-            spaceBetween: 15,
-          },
-          320: {
-            slidesPerView: 1,
-            spaceBetween: 15,
-          }
+        320: {
+          slidesPerView: 1,
+          spaceBetween: 15,
         }
-      });
-      </script>
-      <script>
-      
-      var swiper3 = new Swiper('.swiper3', {
+      }
+    });
+  </script>
+  <script>
+
+    var swiper3 = new Swiper('.swiper3', {
       pagination: {
         el: '.swiper-pagination-3',
         clickable: 'True',
       },
     });
-    </script>
-    <script>
-    var swiper4 = new Swiper('.swiper4', {
-    slidesPerView: 3,
-    spaceBetween: 30,
-    grabCursor: true,
-    autoplay: 1000,
-    speed: 800,
-    simulateTouch: true,
-    navigation: {
-      nextEl: '.swiper-next4',
-      prevEl: '.swiper-prev4',
-    },
-    breakpoints: {
-      1024: {
-        slidesPerView: 3,
-        spaceBetween: 15,
-      },
-      768: {
-        slidesPerView: 1,
-        spaceBetween: 15,
-      },
-      640: {
-        slidesPerView: 1,
-        spaceBetween: 15,
-      },
-      320: {
-        slidesPerView: 1,
-        spaceBetween: 15,
-      }
-    },
-    pagination: {
-      el: '.swiper-pagination-4',
-      clickable: 'True',
-    },
-  });
   </script>
   <script>
-      var swiper5 = new Swiper('.swiper5', {
+    var swiper4 = new Swiper('.swiper4', {
+      slidesPerView: 3,
+      spaceBetween: 30,
+      grabCursor: true,
+      autoplay: 1000,
+      speed: 800,
+      simulateTouch: true,
+      navigation: {
+        nextEl: '.swiper-next4',
+        prevEl: '.swiper-prev4',
+      },
+      breakpoints: {
+        1024: {
+          slidesPerView: 3,
+          spaceBetween: 15,
+        },
+        768: {
+          slidesPerView: 1,
+          spaceBetween: 15,
+        },
+        640: {
+          slidesPerView: 1,
+          spaceBetween: 15,
+        },
+        320: {
+          slidesPerView: 1,
+          spaceBetween: 15,
+        }
+      },
+      pagination: {
+        el: '.swiper-pagination-4',
+        clickable: 'True',
+      },
+    });
+  </script>
+  <script>
+    var swiper5 = new Swiper('.swiper5', {
       slidesPerView: 3,
       spaceBetween: 30,
       grabCursor: true,
@@ -1152,7 +1409,7 @@
       },
     });
 
-    $('a[data-toggle="tab"]').on('shown.bs.tab', function(e) {
+    $('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
       var paneTarget = $(e.target).attr('href');
       var $thePane = $('.tab-pane' + paneTarget);
       var paneIndex = $thePane.index();
@@ -1160,8 +1417,8 @@
         mySwiper[paneIndex].update();
       }
     });
-    </script>
-    <script>
+  </script>
+  <script>
     var swiper6 = new Swiper('.swiper6', {
       slidesPerView: 3,
       spaceBetween: 30,
@@ -1193,96 +1450,8 @@
       },
     });
 
-    </script>
-   <script>
-      ////////////____Input Focus___//////////////////
+  </script>
 
-      // $(".form-control").focusout(function() {
-      // $(".form-group").removeClass("focus");
-      // });
-      // $(".form-control").focus(function() {
-      // $(this)
-      // .closest(".form-group")
-      // .addClass("focus");
-      // });
+</body>
 
-      // /// Input Kepress Filled  Focus
-      // $(".form-control").keyup(function() {
-      // if ($(this).val().length > 0) {
-      // $(this)
-      // .closest(".form-group")
-      // .addClass("filled");
-      // } else {
-      // $(this)
-      // .closest(".form-group")
-      // .removeClass("filled");
-      // }
-      // });
-
-      // /// Input Check Filled Focus
-      // var $formControl = $(".form-control");
-      // var values = {};
-      // var validate = $formControl.each(function() {
-      // if ($(this).val().length > 0) {
-      // $(this)
-      // .closest(".form-group")
-      // .addClass("filled");
-      // } else {
-      // $(this)
-      // .closest(".form-group")
-      // .removeClass("filled");
-      // }
-      // });
-
-      // // Button switching
-
-      // $(".caption").click(function() {
-      // $(this)
-      // .closest(".log-form")
-      // .addClass("open");
-      // });
-
-      // $(".close").click(function() {
-      // $(this)
-      // .closest(".log-form")
-      // .removeClass("open");
-      // });
-      // //Ripple Effect
-      // $(".btn").click(function(e) {
-      // // Remove olds ones
-      // $(".ripple").remove();
-
-      // // Setup
-      // var posX = $(this).offset().left,
-      // posY = $(this).offset().top,
-      // buttonWidth = $(this).width(),
-      // buttonHeight = $(this).height();
-
-      // // Add the element
-      // $(this).prepend("<span class='ripple'></span>");
-
-      // // Make it round!
-      // if (buttonWidth >= buttonHeight) {
-      // buttonHeight = buttonWidth;
-      // } else {
-      // buttonWidth = buttonHeight;
-      // }
-
-      // // Get the center of the element
-      // var x = e.pageX - posX - buttonWidth / 2;
-      // var y = e.pageY - posY - buttonHeight / 2;
-
-      // // Add the ripples CSS and start the animation
-      // $(".ripple")
-      // .css({
-      // width: buttonWidth,
-      // height: buttonHeight,
-      // top: y + "px",
-      // left: x + "px"
-      // })
-      // .addClass("rippleEffect");
-      // });
-    </script>
-
-  </body>
 </html>
