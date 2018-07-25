@@ -321,7 +321,7 @@ img {
   -webkit-transition: 0.4s padding-left;
   transition: 0.4s padding-left; 
 }
-#features h3:hover > i{
+#features .insider:hover i{
   padding-left: 4px;
   -webkit-transition: 0.4s padding-left;
   transition: 0.4s padding-left; 
