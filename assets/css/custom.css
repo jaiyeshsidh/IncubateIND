@@ -828,9 +828,9 @@ list-style-type:none;
   outline:none;
   width: 100%;
   margin: 3px;
-  height: 80px;
+  height: 70px;
   padding-bottom: 0px;
-  padding-top:  30px;
+  padding-top: 20px;
 }
 .sa-innate-form input[type=text]:foucs, input[type=password]:foucs, input[type=file]{
   border: 1px solid#4c3aad;
@@ -959,7 +959,7 @@ input[type="password"]:focus  {
 
 label {
   letter-spacing: 0.05em;
-  margin-left: 10px;
+  margin-left: 15px;
 }
 input:placeholder-shown + label {
   cursor: text;
@@ -968,7 +968,7 @@ input:placeholder-shown + label {
   overflow: hidden;
   text-overflow: ellipsis;
   transform-origin: left bottom;
-  transform: translate(0, 3.7rem) scale(1);
+  transform: translate(0, 3.7rem) scale(0.9);
   color: #8a8a8a;
 }
 ::-webkit-input-placeholder {
