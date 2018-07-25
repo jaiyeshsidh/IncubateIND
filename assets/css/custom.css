@@ -455,7 +455,7 @@ img {
   -webkit-transition: 0.4s padding-left;
   transition: 0.4s padding-left; 
 }
-#fh h4:hover > i{
+#fh .container .col-sm-3:hover i{
   padding-left: 4px;
   -webkit-transition: 0.4s padding-left;
   transition: 0.4s padding-left; 
@@ -509,6 +509,15 @@ img {
 .bottom-hub{
   color:#6b8191;
   font-size:  14px;
+}
+.bottom-hub p{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  /* line-height: 16px; */     /* fallback */
+  max-height: 158px;      /* fallback */
+  -webkit-line-clamp: 7; /* number of lines to show */
+  -webkit-box-orient: vertical;
 }
 .image-hub{
   width: 40%;
@@ -614,6 +623,13 @@ img {
   color: #6b8191;
   font-size:  14px;
   line-height:  22px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  /* line-height: 16px; */     /* fallback */
+  max-height: -webkit-fill-available;      /* fallback */
+  -webkit-line-clamp: 7; /* number of lines to show */
+  -webkit-box-orient: vertical;
 }
 footer{
   background-image: url(../../assets/images/Footer.jpg);
