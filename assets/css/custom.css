@@ -752,6 +752,9 @@ list-style-type:none;
   #getstarted h1{
     text-align: center !important;
   }
+  .carousel-control{
+    display: none;
+  }
 }
 @media (max-width:556px){
   #companies-logo {
@@ -896,36 +899,6 @@ list-style-type:none;
 }
 
 
-.swiper-btn-p-1{
-  opacity: 0;
-}
-.swiper-btn-n-1{
-  opacity: 0;
-}
-.hover-arrow:hover .swiper-btn-p-1{
-  opacity: 1;
-  transition: 0.8s all;
-}
-.hover-arrow:hover .swiper-btn-n-1{
-  opacity: 1;
-  transition: 0.8s all;
-}
-.swiper-next2{
-  opacity: 0;
-}
-.swiper-prev2{
-  opacity: 0;
-}
-.hover-arrow:hover .swiper-next2{
-  opacity: 1;
-  transition: 0.8s all;
-}
-.hover-arrow:hover .swiper-prev2{
-  opacity: 1;
-  transition: 0.8s all;
-}
-
-
 /* ================
 Temp
 ================ */
@@ -996,3 +969,28 @@ input:focus + label {
 
 
 
+
+
+.carousel-control{
+  position: absolute;
+  top: 275px;
+  width: 30px;
+  height: 50px;
+  background-color:rgba(255,255,2555,1);
+  text-align: center;
+  font-size: 30px;
+}
+#landing .left{
+opacity: 0;
+}
+#landing .right{
+  opacity: 0;
+}
+#landing:hover .left{
+  opacity: 1;
+  transition: 0.8s all;
+}
+#landing:hover .right{
+  opacity: 1;
+  transition: 0.8s all;
+}
