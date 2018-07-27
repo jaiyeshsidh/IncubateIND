@@ -106,9 +106,9 @@ img {
 }
 .navbar-light .navbar-toggler {
   color: #5e23dd;
-  margin-right: 16px;
+  margin-right: 0;
   background-color: rgba(0,0,0,0);
-  border: 1px solid #5e23dd;
+  border: 0;
   border-radius: 5px;
 }
 .navbar-light .navbar-toggler-icon {
@@ -117,7 +117,7 @@ img {
 
 .navbar-toggler:hover{
   background-color: rgba(0,0,0,0);
-  border: 1px solid #5e23dd;
+  border: 0;
   border-radius: 5px;
 }
 .navbar-brand img{
@@ -446,7 +446,7 @@ img {
   flex-basis: 94%;
   flex-grow: 0;
   flex-shrink: 0;
-  margin-left: -20px;
+  margin-right: 0px;
 }
 #fh h4 > i{
   position: absolute;
@@ -703,9 +703,6 @@ list-style-type:none;
   font-weight:  700;
   margin-left:  -10px;
   margin-right: -10px;
-  position: fixed;
-  top: 0%;
-  left: 0;
   display: none;
   width: 112%;
 }
@@ -717,7 +714,16 @@ list-style-type:none;
 .row-mob-login p{
   display: inline;
 }
-
+.navbar-nav .dropdown-menu{
+  margin-left: 22px;
+  text-align: center;
+}
+.mob-landing-btn{
+  display: none;
+}
+.card1 .col-12{
+  padding: 0 !important;
+}
 /* Input Form Design */
 @media(min-width:1199px) and (max-width:1410px){
   #sidekick{
@@ -815,10 +821,70 @@ list-style-type:none;
     height: 100vh;
   }
   .modal-content .row{
-    margin-top:64px !important;
+    margin-top: 14px !important;
   }
   .row-mob-login{
     display: block;
+  }
+  .modal .social-login{
+    bottom: 0;
+    position: fixed;
+    width: 112%;
+  }
+  .signup-btn{
+    border-radius: 20px;
+  }
+  .carousel-indicators {
+    position: relative !important;
+    right: auto !important;
+    bottom: 34px !important;
+    left: auto !important;
+    z-index: 15;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-left: 0;
+    margin-right: auto !important;
+    margin-left: auto !important;
+    list-style: none;
+  }
+  .carousel-caption{
+    left:0 !important;
+    bottom: 14% !important;
+  }
+  .carousel-caption h3{
+    text-align: center;
+  }
+  .carousel-caption p{
+    text-align: center;
+  }
+  .mob-landing-btn{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #fff;
+    background:  none;
+    color:  #fff;
+    font-weight:  600;
+    border-radius: 30px;
+    padding:  10px 20px;
+  }
+  .mob-landing-btn:hover{
+    background: none;
+    border: 2px solid #fff;
+  }
+  .navbar-brand{
+    margin-right: -2.5rem;
+  }
+  #companies-logo {
+      padding: 10px 10px !important;
+  }
+  #landing{
+    height: 72vh !important;
+  }
+  .carousel-item{
+    height: 72vh !important;
   }
 }
 @media (max-width:556px){
@@ -1063,4 +1129,50 @@ opacity: 0;
 #landing:hover .right{
   opacity: 1;
   transition: 0.8s all;
+}
+
+
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #5e23dd;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 22px;
+  color: #fff;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+.sidenav {padding-top: 15px;}
+.sidenav a {font-size: 18px;}
 }

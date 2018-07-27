@@ -28,7 +28,7 @@
   <!-- Title -->
   <title>IncubateIND - Hack | Code | Connect</title>
 
-
+  
 </head>
 
 <body>
@@ -36,10 +36,17 @@
   <nav class="navbar navbar-expand-lg navbar-light sticky-top bg-theme-light">
     <div class="container">
       <a class="navbar-brand" href="#">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+        <button onclick="openNav()" class="navbar-toggler" type="button"  aria-controls="navbarSupportedContent"
           aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
+        <div id="mySidenav" class="sidenav">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <a href="#">About</a>
+          <a href="#">Services</a>
+          <a href="#">Clients</a>
+          <a href="#">Contact</a>
+        </div>
         <img src="assets/images/Layer 1.png" width="auto" height="50" alt="">
       </a>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -69,27 +76,30 @@
     </div>
   </nav>
 
+
+
   <!-- Modal -->
   <div class="modal fade" id="signinModal" tabindex="-1" role="dialog" aria-labelledby="signinModal" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
       <div class="modal-content">
-        <div class="modal-body" style="background: linear-gradient(#552eaf, #d056b0); padding: 0px; box-shadow: 0px 0px 10px rgba(0,0,0,0.4);">
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="margin:-11px -54px; background: none !important; border: none !important;">
-            <img src="assets/images/close.svg" style="width:18px;">
-          </button>
           <div class="row-mob-login sticky-top">
               <a data-dismiss="modal" aria-label="Close"><i class="fas fa-arrow-left"></i></a>
               <p>Login / Sign Up</p>
           </div>
+        <div class="modal-body" style="background: linear-gradient(#552eaf, #d056b0); padding: 0px; box-shadow: 0px 0px 10px rgba(0,0,0,0.4);">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="margin:-11px -54px; background: none !important; border: none !important;">
+            <img src="assets/images/close.svg" style="width:18px;">
+          </button>
+          
           <div class="row">
-            <div class="col-sm-5" style="margin-right: -14px;">
-              <div class="modal-login-left d-none d-xl-block d-lg-block d-md-block d-sm-block">
+            <div class="col-sm-5  d-none d-xl-block d-lg-block d-md-block d-sm-block " style="margin-right: -14px;">
+              <div class="modal-login-left">
                 <h2 style="font-size: 24px; color:#fff; font-weight: 700;">Login</h2>
                 <h4 style="font-size: 14px; font-weight: 600; letter-spacing: 0.3px; line-height: 21px; color: #fff; margin-top: 30p">Join this platform with one of the biggest Community.</h4>
                 <img src="assets/images/Layer 929.png" style="width: 100%;display: block;margin: auto;margin-top: 130px;">
               </div>
             </div>
-            <div class="col-sm-7" style="background-color: #fff; padding-top: 15px; padding-bottom: 15px;">
+            <div class="col-sm-7 col-12" style="background-color: #fff; padding-top: 15px; padding-bottom: 15px;">
               <div>
                 <ul class="nav nav-pills nav-justified mb-3" id="pills-tab" role="tablist">
                   <li class="nav-item">
@@ -241,6 +251,7 @@
             <div class="carousel-caption ">
               <p>Discover Innovation. Create Radical.</p>
               <h3>BE THE CREATOR.</h3>
+              <button class="mob-landing-btn">Get Started Today</button>
             </div>
             <ol class="carousel-indicators">
               <li data-target="#carouselIndicators" data-slide-to="0" class="active"></li>
@@ -1363,14 +1374,17 @@
         768: {
           slidesPerView: 1,
           spaceBetween: 15,
+          freeMode: true,
         },
         640: {
           slidesPerView: 1,
           spaceBetween: 15,
+          freeMode: true,
         },
         320: {
           slidesPerView: 1,
           spaceBetween: 15,
+          freeMode: true,
         }
       },
       pagination: {
@@ -1456,6 +1470,17 @@
       },
     });
 
+  </script>
+  <script>
+  function openNav() {
+      document.getElementById("mySidenav").style.width = "100%";
+      document.getElementById("main").style.marginLeft = "100%";
+  }
+  
+  function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+      document.getElementById("main").style.marginLeft= "0";
+  }
   </script>
 
 </body>
